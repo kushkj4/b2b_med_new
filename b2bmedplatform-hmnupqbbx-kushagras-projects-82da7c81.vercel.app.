@@ -1,0 +1,4000 @@
+{
+  "log": {
+    "version": "1.2",
+    "creator": {
+      "name": "WebInspector",
+      "version": "537.36"
+    },
+    "pages": [],
+    "entries": [
+      {
+        "_connectionId": "102738",
+        "_initiator": {
+          "type": "script",
+          "stack": {
+            "callFrames": [
+              {
+                "functionName": "window.fetch",
+                "scriptId": "30",
+                "url": "chrome-extension://iohjgamcilhbgmhbnllfolmkmmekfmci/injected-scripts/host-network-events.js",
+                "lineNumber": 0,
+                "columnNumber": 168642
+              }
+            ],
+            "parent": {
+              "description": "await",
+              "callFrames": [
+                {
+                  "functionName": "i",
+                  "scriptId": "24",
+                  "url": "https://b2bmedplatform-hmnupqbbx-kushagras-projects-82da7c81.vercel.app/_next/static/chunks/15e2eefaace67d07.js",
+                  "lineNumber": 0,
+                  "columnNumber": 925
+                },
+                {
+                  "functionName": "S",
+                  "scriptId": "24",
+                  "url": "https://b2bmedplatform-hmnupqbbx-kushagras-projects-82da7c81.vercel.app/_next/static/chunks/15e2eefaace67d07.js",
+                  "lineNumber": 0,
+                  "columnNumber": 2838
+                },
+                {
+                  "functionName": "b",
+                  "scriptId": "24",
+                  "url": "https://b2bmedplatform-hmnupqbbx-kushagras-projects-82da7c81.vercel.app/_next/static/chunks/15e2eefaace67d07.js",
+                  "lineNumber": 0,
+                  "columnNumber": 2986
+                },
+                {
+                  "functionName": "m",
+                  "scriptId": "27",
+                  "url": "https://b2bmedplatform-hmnupqbbx-kushagras-projects-82da7c81.vercel.app/_next/static/chunks/8c277c3b87ec3870.js",
+                  "lineNumber": 0,
+                  "columnNumber": 9487
+                },
+                {
+                  "functionName": "sY",
+                  "scriptId": "20",
+                  "url": "https://b2bmedplatform-hmnupqbbx-kushagras-projects-82da7c81.vercel.app/_next/static/chunks/edf728ade32a04ce.js",
+                  "lineNumber": 0,
+                  "columnNumber": 161797
+                },
+                {
+                  "functionName": "",
+                  "scriptId": "20",
+                  "url": "https://b2bmedplatform-hmnupqbbx-kushagras-projects-82da7c81.vercel.app/_next/static/chunks/edf728ade32a04ce.js",
+                  "lineNumber": 0,
+                  "columnNumber": 167685
+                },
+                {
+                  "functionName": "tD",
+                  "scriptId": "20",
+                  "url": "https://b2bmedplatform-hmnupqbbx-kushagras-projects-82da7c81.vercel.app/_next/static/chunks/edf728ade32a04ce.js",
+                  "lineNumber": 0,
+                  "columnNumber": 30292
+                },
+                {
+                  "functionName": "s3",
+                  "scriptId": "20",
+                  "url": "https://b2bmedplatform-hmnupqbbx-kushagras-projects-82da7c81.vercel.app/_next/static/chunks/edf728ade32a04ce.js",
+                  "lineNumber": 0,
+                  "columnNumber": 163030
+                },
+                {
+                  "functionName": "fC",
+                  "scriptId": "20",
+                  "url": "https://b2bmedplatform-hmnupqbbx-kushagras-projects-82da7c81.vercel.app/_next/static/chunks/edf728ade32a04ce.js",
+                  "lineNumber": 0,
+                  "columnNumber": 198996
+                },
+                {
+                  "functionName": "fP",
+                  "scriptId": "20",
+                  "url": "https://b2bmedplatform-hmnupqbbx-kushagras-projects-82da7c81.vercel.app/_next/static/chunks/edf728ade32a04ce.js",
+                  "lineNumber": 0,
+                  "columnNumber": 198818
+                }
+              ]
+            }
+          }
+        },
+        "_priority": "High",
+        "_resourceType": "fetch",
+        "cache": {},
+        "connection": "443",
+        "request": {
+          "method": "GET",
+          "url": "https://b2bmedplatform-hmnupqbbx-kushagras-projects-82da7c81.vercel.app/api/auth/providers",
+          "httpVersion": "http/2.0",
+          "headers": [
+            {
+              "name": ":authority",
+              "value": "b2bmedplatform-hmnupqbbx-kushagras-projects-82da7c81.vercel.app"
+            },
+            {
+              "name": ":method",
+              "value": "GET"
+            },
+            {
+              "name": ":path",
+              "value": "/api/auth/providers"
+            },
+            {
+              "name": ":scheme",
+              "value": "https"
+            },
+            {
+              "name": "accept",
+              "value": "*/*"
+            },
+            {
+              "name": "accept-encoding",
+              "value": "gzip, deflate, br, zstd"
+            },
+            {
+              "name": "accept-language",
+              "value": "en-GB,en-US;q=0.9,en;q=0.8,hi;q=0.7,bho;q=0.6,te;q=0.5"
+            },
+            {
+              "name": "content-type",
+              "value": "application/json"
+            },
+            {
+              "name": "priority",
+              "value": "u=1, i"
+            },
+            {
+              "name": "referer",
+              "value": "https://b2bmedplatform-hmnupqbbx-kushagras-projects-82da7c81.vercel.app/login?callbackUrl=%2Fadmin%2Fdashboard"
+            },
+            {
+              "name": "sec-ch-ua",
+              "value": "\"Not(A:Brand\";v=\"8\", \"Chromium\";v=\"144\", \"Google Chrome\";v=\"144\""
+            },
+            {
+              "name": "sec-ch-ua-mobile",
+              "value": "?0"
+            },
+            {
+              "name": "sec-ch-ua-platform",
+              "value": "\"macOS\""
+            },
+            {
+              "name": "sec-fetch-dest",
+              "value": "empty"
+            },
+            {
+              "name": "sec-fetch-mode",
+              "value": "cors"
+            },
+            {
+              "name": "sec-fetch-site",
+              "value": "same-origin"
+            },
+            {
+              "name": "user-agent",
+              "value": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36"
+            }
+          ],
+          "queryString": [],
+          "cookies": [],
+          "headersSize": -1,
+          "bodySize": 0
+        },
+        "response": {
+          "status": 200,
+          "statusText": "",
+          "httpVersion": "http/2.0",
+          "headers": [
+            {
+              "name": "age",
+              "value": "0"
+            },
+            {
+              "name": "cache-control",
+              "value": "public, max-age=0, must-revalidate"
+            },
+            {
+              "name": "content-encoding",
+              "value": "br"
+            },
+            {
+              "name": "content-type",
+              "value": "application/json"
+            },
+            {
+              "name": "date",
+              "value": "Sat, 31 Jan 2026 09:20:19 GMT"
+            },
+            {
+              "name": "server",
+              "value": "Vercel"
+            },
+            {
+              "name": "strict-transport-security",
+              "value": "max-age=63072000; includeSubDomains; preload"
+            },
+            {
+              "name": "vary",
+              "value": "rsc, next-router-state-tree, next-router-prefetch, next-router-segment-prefetch"
+            },
+            {
+              "name": "x-matched-path",
+              "value": "/api/auth/[...nextauth]"
+            },
+            {
+              "name": "x-robots-tag",
+              "value": "noindex"
+            },
+            {
+              "name": "x-vercel-cache",
+              "value": "MISS"
+            },
+            {
+              "name": "x-vercel-id",
+              "value": "bom1::iad1::s7sxg-1769851219663-44f3b5654b78"
+            }
+          ],
+          "cookies": [],
+          "content": {
+            "size": 310,
+            "mimeType": "application/json",
+            "text": "{\"credentials\":{\"id\":\"credentials\",\"name\":\"Credentials\",\"type\":\"credentials\",\"signinUrl\":\"https://b2bmedplatform-c826u4w4v-kushagras-projects-82da7c81.vercel.app/api/auth/signin/credentials\",\"callbackUrl\":\"https://b2bmedplatform-c826u4w4v-kushagras-projects-82da7c81.vercel.app/api/auth/callback/credentials\"}}"
+          },
+          "redirectURL": "",
+          "headersSize": -1,
+          "bodySize": -1,
+          "_transferSize": 363,
+          "_error": null,
+          "_fetchedViaServiceWorker": false
+        },
+        "serverIPAddress": "216.198.79.3",
+        "startedDateTime": "2026-01-31T09:20:19.616Z",
+        "time": 298.0570000363514,
+        "timings": {
+          "blocked": 1.6660000444352627,
+          "dns": -1,
+          "ssl": -1,
+          "connect": -1,
+          "send": 0.593,
+          "wait": 290.2899999608025,
+          "receive": 5.508000031113625,
+          "_blocked_queueing": 0.8620000444352627,
+          "_workerStart": -1,
+          "_workerReady": -1,
+          "_workerFetchStart": -1,
+          "_workerRespondWithSettled": -1
+        }
+      },
+      {
+        "_connectionId": "106467",
+        "_initiator": {
+          "type": "script",
+          "stack": {
+            "callFrames": [
+              {
+                "functionName": "AO",
+                "scriptId": "5",
+                "url": "chrome-extension://iohjgamcilhbgmhbnllfolmkmmekfmci/sw.js",
+                "lineNumber": 1483,
+                "columnNumber": 24594
+              },
+              {
+                "functionName": "AT",
+                "scriptId": "5",
+                "url": "chrome-extension://iohjgamcilhbgmhbnllfolmkmmekfmci/sw.js",
+                "lineNumber": 1483,
+                "columnNumber": 24757
+              },
+              {
+                "functionName": "AP",
+                "scriptId": "5",
+                "url": "chrome-extension://iohjgamcilhbgmhbnllfolmkmmekfmci/sw.js",
+                "lineNumber": 1483,
+                "columnNumber": 25814
+              },
+              {
+                "functionName": "",
+                "scriptId": "5",
+                "url": "chrome-extension://iohjgamcilhbgmhbnllfolmkmmekfmci/sw.js",
+                "lineNumber": 1483,
+                "columnNumber": 22905
+              },
+              {
+                "functionName": "",
+                "scriptId": "5",
+                "url": "chrome-extension://iohjgamcilhbgmhbnllfolmkmmekfmci/sw.js",
+                "lineNumber": 1483,
+                "columnNumber": 26225
+              },
+              {
+                "functionName": "",
+                "scriptId": "5",
+                "url": "chrome-extension://iohjgamcilhbgmhbnllfolmkmmekfmci/sw.js",
+                "lineNumber": 0,
+                "columnNumber": 770229
+              },
+              {
+                "functionName": "",
+                "scriptId": "5",
+                "url": "chrome-extension://iohjgamcilhbgmhbnllfolmkmmekfmci/sw.js",
+                "lineNumber": 0,
+                "columnNumber": 771805
+              },
+              {
+                "functionName": "cj",
+                "scriptId": "5",
+                "url": "chrome-extension://iohjgamcilhbgmhbnllfolmkmmekfmci/sw.js",
+                "lineNumber": 0,
+                "columnNumber": 772534
+              },
+              {
+                "functionName": "",
+                "scriptId": "5",
+                "url": "chrome-extension://iohjgamcilhbgmhbnllfolmkmmekfmci/sw.js",
+                "lineNumber": 0,
+                "columnNumber": 772480
+              }
+            ]
+          }
+        },
+        "_priority": "High",
+        "_resourceType": "fetch",
+        "cache": {},
+        "connection": "443",
+        "request": {
+          "method": "HEAD",
+          "url": "https://monitoring.jam.dev/logs",
+          "httpVersion": "http/2.0",
+          "headers": [
+            {
+              "name": ":authority",
+              "value": "monitoring.jam.dev"
+            },
+            {
+              "name": ":method",
+              "value": "HEAD"
+            },
+            {
+              "name": ":path",
+              "value": "/logs"
+            },
+            {
+              "name": ":scheme",
+              "value": "https"
+            },
+            {
+              "name": "accept",
+              "value": "*/*"
+            },
+            {
+              "name": "accept-encoding",
+              "value": "gzip, deflate, br, zstd"
+            },
+            {
+              "name": "accept-language",
+              "value": "en-GB,en-US;q=0.9,en;q=0.8,hi;q=0.7,bho;q=0.6,te;q=0.5"
+            },
+            {
+              "name": "cache-control",
+              "value": "max-age=0"
+            },
+            {
+              "name": "priority",
+              "value": "u=1, i"
+            },
+            {
+              "name": "sec-fetch-dest",
+              "value": "empty"
+            },
+            {
+              "name": "sec-fetch-mode",
+              "value": "cors"
+            },
+            {
+              "name": "sec-fetch-site",
+              "value": "none"
+            },
+            {
+              "name": "sec-fetch-storage-access",
+              "value": "active"
+            },
+            {
+              "name": "user-agent",
+              "value": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36"
+            }
+          ],
+          "queryString": [],
+          "cookies": [],
+          "headersSize": -1,
+          "bodySize": 0
+        },
+        "response": {
+          "status": 200,
+          "statusText": "",
+          "httpVersion": "http/2.0",
+          "headers": [
+            {
+              "name": "cf-ray",
+              "value": "9c6821ecdb328e7b-DEL"
+            },
+            {
+              "name": "date",
+              "value": "Sat, 31 Jan 2026 09:20:19 GMT"
+            },
+            {
+              "name": "server",
+              "value": "cloudflare"
+            },
+            {
+              "name": "strict-transport-security",
+              "value": "max-age=15552000; includeSubDomains; preload"
+            },
+            {
+              "name": "vary",
+              "value": "accept-encoding"
+            }
+          ],
+          "cookies": [],
+          "content": {
+            "size": 0,
+            "mimeType": "x-unknown"
+          },
+          "redirectURL": "",
+          "headersSize": -1,
+          "bodySize": -1,
+          "_transferSize": 116,
+          "_error": "net::ERR_ABORTED",
+          "_fetchedViaServiceWorker": false
+        },
+        "serverIPAddress": "[2606:4700:90c0:4409:e464:26:6d97:75e9]",
+        "startedDateTime": "2026-01-31T09:20:19.904Z",
+        "time": 98.57700001212956,
+        "timings": {
+          "blocked": 1.5529999564364552,
+          "dns": 12.378,
+          "ssl": 26.441999999999997,
+          "connect": 55.529999999999994,
+          "send": 0.595000000000006,
+          "wait": 26.763000057175752,
+          "receive": 1.7579999985173345,
+          "_blocked_queueing": 0.7739999564364552,
+          "_workerStart": -1,
+          "_workerReady": -1,
+          "_workerFetchStart": -1,
+          "_workerRespondWithSettled": -1
+        }
+      },
+      {
+        "_connectionId": "102738",
+        "_initiator": {
+          "type": "script",
+          "stack": {
+            "callFrames": [
+              {
+                "functionName": "window.fetch",
+                "scriptId": "30",
+                "url": "chrome-extension://iohjgamcilhbgmhbnllfolmkmmekfmci/injected-scripts/host-network-events.js",
+                "lineNumber": 0,
+                "columnNumber": 168642
+              }
+            ],
+            "parent": {
+              "description": "await",
+              "callFrames": [
+                {
+                  "functionName": "i",
+                  "scriptId": "24",
+                  "url": "https://b2bmedplatform-hmnupqbbx-kushagras-projects-82da7c81.vercel.app/_next/static/chunks/15e2eefaace67d07.js",
+                  "lineNumber": 0,
+                  "columnNumber": 925
+                },
+                {
+                  "functionName": "y",
+                  "scriptId": "24",
+                  "url": "https://b2bmedplatform-hmnupqbbx-kushagras-projects-82da7c81.vercel.app/_next/static/chunks/15e2eefaace67d07.js",
+                  "lineNumber": 0,
+                  "columnNumber": 2774
+                },
+                {
+                  "functionName": "b",
+                  "scriptId": "24",
+                  "url": "https://b2bmedplatform-hmnupqbbx-kushagras-projects-82da7c81.vercel.app/_next/static/chunks/15e2eefaace67d07.js",
+                  "lineNumber": 1,
+                  "columnNumber": 137
+                }
+              ],
+              "parent": {
+                "description": "await",
+                "callFrames": [
+                  {
+                    "functionName": "m",
+                    "scriptId": "27",
+                    "url": "https://b2bmedplatform-hmnupqbbx-kushagras-projects-82da7c81.vercel.app/_next/static/chunks/8c277c3b87ec3870.js",
+                    "lineNumber": 0,
+                    "columnNumber": 9487
+                  },
+                  {
+                    "functionName": "sY",
+                    "scriptId": "20",
+                    "url": "https://b2bmedplatform-hmnupqbbx-kushagras-projects-82da7c81.vercel.app/_next/static/chunks/edf728ade32a04ce.js",
+                    "lineNumber": 0,
+                    "columnNumber": 161797
+                  },
+                  {
+                    "functionName": "",
+                    "scriptId": "20",
+                    "url": "https://b2bmedplatform-hmnupqbbx-kushagras-projects-82da7c81.vercel.app/_next/static/chunks/edf728ade32a04ce.js",
+                    "lineNumber": 0,
+                    "columnNumber": 167685
+                  },
+                  {
+                    "functionName": "tD",
+                    "scriptId": "20",
+                    "url": "https://b2bmedplatform-hmnupqbbx-kushagras-projects-82da7c81.vercel.app/_next/static/chunks/edf728ade32a04ce.js",
+                    "lineNumber": 0,
+                    "columnNumber": 30292
+                  },
+                  {
+                    "functionName": "s3",
+                    "scriptId": "20",
+                    "url": "https://b2bmedplatform-hmnupqbbx-kushagras-projects-82da7c81.vercel.app/_next/static/chunks/edf728ade32a04ce.js",
+                    "lineNumber": 0,
+                    "columnNumber": 163030
+                  },
+                  {
+                    "functionName": "fC",
+                    "scriptId": "20",
+                    "url": "https://b2bmedplatform-hmnupqbbx-kushagras-projects-82da7c81.vercel.app/_next/static/chunks/edf728ade32a04ce.js",
+                    "lineNumber": 0,
+                    "columnNumber": 198996
+                  },
+                  {
+                    "functionName": "fP",
+                    "scriptId": "20",
+                    "url": "https://b2bmedplatform-hmnupqbbx-kushagras-projects-82da7c81.vercel.app/_next/static/chunks/edf728ade32a04ce.js",
+                    "lineNumber": 0,
+                    "columnNumber": 198818
+                  }
+                ]
+              }
+            }
+          }
+        },
+        "_priority": "High",
+        "_resourceType": "fetch",
+        "cache": {},
+        "connection": "443",
+        "request": {
+          "method": "GET",
+          "url": "https://b2bmedplatform-hmnupqbbx-kushagras-projects-82da7c81.vercel.app/api/auth/csrf",
+          "httpVersion": "http/2.0",
+          "headers": [
+            {
+              "name": ":authority",
+              "value": "b2bmedplatform-hmnupqbbx-kushagras-projects-82da7c81.vercel.app"
+            },
+            {
+              "name": ":method",
+              "value": "GET"
+            },
+            {
+              "name": ":path",
+              "value": "/api/auth/csrf"
+            },
+            {
+              "name": ":scheme",
+              "value": "https"
+            },
+            {
+              "name": "accept",
+              "value": "*/*"
+            },
+            {
+              "name": "accept-encoding",
+              "value": "gzip, deflate, br, zstd"
+            },
+            {
+              "name": "accept-language",
+              "value": "en-GB,en-US;q=0.9,en;q=0.8,hi;q=0.7,bho;q=0.6,te;q=0.5"
+            },
+            {
+              "name": "content-type",
+              "value": "application/json"
+            },
+            {
+              "name": "priority",
+              "value": "u=1, i"
+            },
+            {
+              "name": "referer",
+              "value": "https://b2bmedplatform-hmnupqbbx-kushagras-projects-82da7c81.vercel.app/login?callbackUrl=%2Fadmin%2Fdashboard"
+            },
+            {
+              "name": "sec-ch-ua",
+              "value": "\"Not(A:Brand\";v=\"8\", \"Chromium\";v=\"144\", \"Google Chrome\";v=\"144\""
+            },
+            {
+              "name": "sec-ch-ua-mobile",
+              "value": "?0"
+            },
+            {
+              "name": "sec-ch-ua-platform",
+              "value": "\"macOS\""
+            },
+            {
+              "name": "sec-fetch-dest",
+              "value": "empty"
+            },
+            {
+              "name": "sec-fetch-mode",
+              "value": "cors"
+            },
+            {
+              "name": "sec-fetch-site",
+              "value": "same-origin"
+            },
+            {
+              "name": "user-agent",
+              "value": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36"
+            }
+          ],
+          "queryString": [],
+          "cookies": [],
+          "headersSize": -1,
+          "bodySize": 0
+        },
+        "response": {
+          "status": 200,
+          "statusText": "",
+          "httpVersion": "http/2.0",
+          "headers": [
+            {
+              "name": "age",
+              "value": "0"
+            },
+            {
+              "name": "cache-control",
+              "value": "private, no-cache, no-store"
+            },
+            {
+              "name": "content-encoding",
+              "value": "br"
+            },
+            {
+              "name": "content-type",
+              "value": "application/json"
+            },
+            {
+              "name": "date",
+              "value": "Sat, 31 Jan 2026 09:20:20 GMT"
+            },
+            {
+              "name": "expires",
+              "value": "0"
+            },
+            {
+              "name": "pragma",
+              "value": "no-cache"
+            },
+            {
+              "name": "server",
+              "value": "Vercel"
+            },
+            {
+              "name": "strict-transport-security",
+              "value": "max-age=63072000; includeSubDomains; preload"
+            },
+            {
+              "name": "vary",
+              "value": "rsc, next-router-state-tree, next-router-prefetch, next-router-segment-prefetch"
+            },
+            {
+              "name": "x-matched-path",
+              "value": "/api/auth/[...nextauth]"
+            },
+            {
+              "name": "x-robots-tag",
+              "value": "noindex"
+            },
+            {
+              "name": "x-vercel-cache",
+              "value": "MISS"
+            },
+            {
+              "name": "x-vercel-id",
+              "value": "bom1::iad1::s7sxg-1769851219961-b5e55f50a7e0"
+            }
+          ],
+          "cookies": [],
+          "content": {
+            "size": 80,
+            "mimeType": "application/json",
+            "text": "{\"csrfToken\":\"a208892ae2c0d18e5486bad00a26b13d351ed483a6ea67783f7b69c539539dca\"}"
+          },
+          "redirectURL": "",
+          "headersSize": -1,
+          "bodySize": -1,
+          "_transferSize": 227,
+          "_error": null,
+          "_fetchedViaServiceWorker": false
+        },
+        "serverIPAddress": "216.198.79.3",
+        "startedDateTime": "2026-01-31T09:20:19.916Z",
+        "time": 291.2119999527931,
+        "timings": {
+          "blocked": 2.4050000510290266,
+          "dns": -1,
+          "ssl": -1,
+          "connect": -1,
+          "send": 0.40700000000000003,
+          "wait": 287.66199998661875,
+          "receive": 0.7379999151453376,
+          "_blocked_queueing": 0.8170000510290265,
+          "_workerStart": -1,
+          "_workerReady": -1,
+          "_workerFetchStart": -1,
+          "_workerRespondWithSettled": -1
+        }
+      },
+      {
+        "_connectionId": "106467",
+        "_initiator": {
+          "type": "script",
+          "stack": {
+            "callFrames": [
+              {
+                "functionName": "AT",
+                "scriptId": "5",
+                "url": "chrome-extension://iohjgamcilhbgmhbnllfolmkmmekfmci/sw.js",
+                "lineNumber": 1483,
+                "columnNumber": 25056
+              }
+            ],
+            "parent": {
+              "description": "await",
+              "callFrames": [
+                {
+                  "functionName": "AP",
+                  "scriptId": "5",
+                  "url": "chrome-extension://iohjgamcilhbgmhbnllfolmkmmekfmci/sw.js",
+                  "lineNumber": 1483,
+                  "columnNumber": 25814
+                },
+                {
+                  "functionName": "",
+                  "scriptId": "5",
+                  "url": "chrome-extension://iohjgamcilhbgmhbnllfolmkmmekfmci/sw.js",
+                  "lineNumber": 1483,
+                  "columnNumber": 22905
+                },
+                {
+                  "functionName": "",
+                  "scriptId": "5",
+                  "url": "chrome-extension://iohjgamcilhbgmhbnllfolmkmmekfmci/sw.js",
+                  "lineNumber": 1483,
+                  "columnNumber": 26225
+                },
+                {
+                  "functionName": "",
+                  "scriptId": "5",
+                  "url": "chrome-extension://iohjgamcilhbgmhbnllfolmkmmekfmci/sw.js",
+                  "lineNumber": 0,
+                  "columnNumber": 770229
+                },
+                {
+                  "functionName": "",
+                  "scriptId": "5",
+                  "url": "chrome-extension://iohjgamcilhbgmhbnllfolmkmmekfmci/sw.js",
+                  "lineNumber": 0,
+                  "columnNumber": 771805
+                },
+                {
+                  "functionName": "cj",
+                  "scriptId": "5",
+                  "url": "chrome-extension://iohjgamcilhbgmhbnllfolmkmmekfmci/sw.js",
+                  "lineNumber": 0,
+                  "columnNumber": 772534
+                },
+                {
+                  "functionName": "",
+                  "scriptId": "5",
+                  "url": "chrome-extension://iohjgamcilhbgmhbnllfolmkmmekfmci/sw.js",
+                  "lineNumber": 0,
+                  "columnNumber": 772480
+                }
+              ]
+            }
+          }
+        },
+        "_priority": "High",
+        "_resourceType": "fetch",
+        "cache": {},
+        "connection": "443",
+        "request": {
+          "method": "POST",
+          "url": "https://monitoring.jam.dev/logs?ddsource=browser&dd-evp-origin=browser&dd-session-id=1d81af9e-ca56-423b-8abc-99f19ea27a86&dd-request-id=c2a22a63-8b1d-4302-9709-ba916a173a2c",
+          "httpVersion": "http/2.0",
+          "headers": [
+            {
+              "name": ":authority",
+              "value": "monitoring.jam.dev"
+            },
+            {
+              "name": ":method",
+              "value": "POST"
+            },
+            {
+              "name": ":path",
+              "value": "/logs?ddsource=browser&dd-evp-origin=browser&dd-session-id=1d81af9e-ca56-423b-8abc-99f19ea27a86&dd-request-id=c2a22a63-8b1d-4302-9709-ba916a173a2c"
+            },
+            {
+              "name": ":scheme",
+              "value": "https"
+            },
+            {
+              "name": "accept",
+              "value": "application/json"
+            },
+            {
+              "name": "accept-encoding",
+              "value": "gzip, deflate, br, zstd"
+            },
+            {
+              "name": "accept-language",
+              "value": "en-GB,en-US;q=0.9,en;q=0.8,hi;q=0.7,bho;q=0.6,te;q=0.5"
+            },
+            {
+              "name": "content-length",
+              "value": "2316"
+            },
+            {
+              "name": "content-type",
+              "value": "application/json"
+            },
+            {
+              "name": "origin",
+              "value": "chrome-extension://iohjgamcilhbgmhbnllfolmkmmekfmci"
+            },
+            {
+              "name": "priority",
+              "value": "u=1, i"
+            },
+            {
+              "name": "sec-fetch-dest",
+              "value": "empty"
+            },
+            {
+              "name": "sec-fetch-mode",
+              "value": "cors"
+            },
+            {
+              "name": "sec-fetch-site",
+              "value": "none"
+            },
+            {
+              "name": "sec-fetch-storage-access",
+              "value": "active"
+            },
+            {
+              "name": "user-agent",
+              "value": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36"
+            }
+          ],
+          "queryString": [
+            {
+              "name": "ddsource",
+              "value": "browser"
+            },
+            {
+              "name": "dd-evp-origin",
+              "value": "browser"
+            },
+            {
+              "name": "dd-session-id",
+              "value": "1d81af9e-ca56-423b-8abc-99f19ea27a86"
+            },
+            {
+              "name": "dd-request-id",
+              "value": "c2a22a63-8b1d-4302-9709-ba916a173a2c"
+            }
+          ],
+          "cookies": [],
+          "headersSize": -1,
+          "bodySize": 2316,
+          "postData": {
+            "mimeType": "application/json",
+            "text": "[{\"service\":\"chrome-extension\",\"date\":1769851197180,\"ddsource\":\"browser\",\"ddtags\":\"env:production,service:chrome-extension,version:0fd0ccf19c617969880e69329d0d2e8899f39cfa\",\"extensionVersion\":\"5.54.3\",\"context\":{\"vendor\":\"chrome\",\"extensionVersion\":\"5.54.3\",\"system\":{\"ram\":8,\"hardwareConcurrency\":8},\"session_id\":\"e1c1974c-b660-4058-b8c9-25b918643c9b\",\"updatedAt\":\"2026-01-31T09:20:19.903Z\",\"swState\":\"activated\",\"cpu\":{\"archName\":\"arm64\",\"features\":[],\"modelName\":\"Apple M2\",\"numOfProcessors\":8,\"temperatures\":[],\"snapshot\":{\"usagePerProcessor\":[0.37185929648241206,0.41708542713567837,0.37,0.345,0.265,0.2537313432835821,0.275,0.15],\"loadAverage\":0.305959508362709,\"normalizedCPUTimePerProcessor\":[0.046278924327704814,0.05190744215134459,0.046278924327704814,0.043151969981238276,0.03314571607254534,0.03189493433395872,0.03439649781113196,0.01876172607879925]},\"deltas\":{\"loadAverageChangeSinceLastSnapshot\":0.12772211824234997,\"avgBufferedLoadAverageChange\":0.0020484546204564175,\"stdevBufferedLoadAverageChange\":0.06961347496285392,\"absMaxBufferedLoadAverageChange\":0.12772211824234997,\"absMinBufferedLoadAverageChange\":0.003055373259331487}},\"memory\":{\"capacityMBs\":16384,\"snapshot\":{\"availableMBs\":436.75,\"percentUsed\":0.9733428955078125},\"deltas\":{\"percentUsedChangeSinceLastSnapshot\":0.00001239776611328125,\"avgBufferedPercentUsedChange\":0.0023913816972212358,\"stdevBufferedPercentUsedChange\":0.006852961034642556,\"absMaxBufferedPercentUsedChange\":0.014019012451171875,\"absMinBufferedPercentUsedChange\":0.00001239776611328125}},\"tabs\":{\"numInjectedTabs\":3,\"maxInjectedTabs\":7},\"user\":{\"id\":\"0213367e-179f-4cc5-a722-ab9d783a0235\",\"createdAt\":\"2024-11-18T07:35:48.731Z\",\"featureFlags\":[\"EnableScreenRecordingMaxDuration\",\"NewExtensionPopupStyle\",\"ResumableExtensionDrafts\",\"ExtensionScriptRegistration\"]},\"contextInsertDelay\":22723},\"userId\":\"0213367e-179f-4cc5-a722-ab9d783a0235\",\"message\":\"[background] perf-measure\",\"status\":\"info\",\"details\":{\"name\":\"script_execute_content-interactivity-events\",\"entryType\":\"measure\",\"startTime\":6188089,\"duration\":249.39999997615814,\"detail\":{\"spanId\":\"be4d8b01-20ae-45eb-ba9e-dfd5a044a2af\",\"executionContext\":\"Main\",\"isInputPending\":null,\"isAboveThreshold\":false,\"origin\":\"chrome-extension://iohjgamcilhbgmhbnllfolmkmmekfmci\",\"jam_responsible_instrumentation\":true}}}]"
+          }
+        },
+        "response": {
+          "status": 202,
+          "statusText": "",
+          "httpVersion": "http/2.0",
+          "headers": [
+            {
+              "name": "cf-ray",
+              "value": "9c6821ed1b498e7b-DEL"
+            },
+            {
+              "name": "content-length",
+              "value": "53"
+            },
+            {
+              "name": "content-type",
+              "value": "text/plain;charset=UTF-8"
+            },
+            {
+              "name": "date",
+              "value": "Sat, 31 Jan 2026 09:20:21 GMT"
+            },
+            {
+              "name": "server",
+              "value": "cloudflare"
+            },
+            {
+              "name": "strict-transport-security",
+              "value": "max-age=15552000; includeSubDomains; preload"
+            },
+            {
+              "name": "vary",
+              "value": "accept-encoding"
+            }
+          ],
+          "cookies": [],
+          "content": {
+            "size": 53,
+            "mimeType": "text/plain",
+            "text": "{\"request_id\":\"c2a22a63-8b1d-4302-9709-ba916a173a2c\"}"
+          },
+          "redirectURL": "",
+          "headersSize": -1,
+          "bodySize": -1,
+          "_transferSize": 153,
+          "_error": null,
+          "_fetchedViaServiceWorker": false
+        },
+        "serverIPAddress": "[2606:4700:90c0:4409:e464:26:6d97:75e9]",
+        "startedDateTime": "2026-01-31T09:20:19.990Z",
+        "time": 1371.5790000278503,
+        "timings": {
+          "blocked": 6.540000059768557,
+          "dns": -1,
+          "ssl": -1,
+          "connect": -1,
+          "send": 0.374,
+          "wait": 1364.2069999731034,
+          "receive": 0.4579999949783087,
+          "_blocked_queueing": 6.0010000597685575,
+          "_workerStart": -1,
+          "_workerReady": -1,
+          "_workerFetchStart": -1,
+          "_workerRespondWithSettled": -1
+        }
+      },
+      {
+        "_connectionId": "102738",
+        "_initiator": {
+          "type": "script",
+          "stack": {
+            "callFrames": [
+              {
+                "functionName": "window.fetch",
+                "scriptId": "30",
+                "url": "chrome-extension://iohjgamcilhbgmhbnllfolmkmmekfmci/injected-scripts/host-network-events.js",
+                "lineNumber": 0,
+                "columnNumber": 168642
+              }
+            ],
+            "parent": {
+              "description": "await",
+              "callFrames": [
+                {
+                  "functionName": "b",
+                  "scriptId": "24",
+                  "url": "https://b2bmedplatform-hmnupqbbx-kushagras-projects-82da7c81.vercel.app/_next/static/chunks/15e2eefaace67d07.js",
+                  "lineNumber": 1,
+                  "columnNumber": 149
+                }
+              ],
+              "parent": {
+                "description": "await",
+                "callFrames": [
+                  {
+                    "functionName": "m",
+                    "scriptId": "27",
+                    "url": "https://b2bmedplatform-hmnupqbbx-kushagras-projects-82da7c81.vercel.app/_next/static/chunks/8c277c3b87ec3870.js",
+                    "lineNumber": 0,
+                    "columnNumber": 9487
+                  },
+                  {
+                    "functionName": "sY",
+                    "scriptId": "20",
+                    "url": "https://b2bmedplatform-hmnupqbbx-kushagras-projects-82da7c81.vercel.app/_next/static/chunks/edf728ade32a04ce.js",
+                    "lineNumber": 0,
+                    "columnNumber": 161797
+                  },
+                  {
+                    "functionName": "",
+                    "scriptId": "20",
+                    "url": "https://b2bmedplatform-hmnupqbbx-kushagras-projects-82da7c81.vercel.app/_next/static/chunks/edf728ade32a04ce.js",
+                    "lineNumber": 0,
+                    "columnNumber": 167685
+                  },
+                  {
+                    "functionName": "tD",
+                    "scriptId": "20",
+                    "url": "https://b2bmedplatform-hmnupqbbx-kushagras-projects-82da7c81.vercel.app/_next/static/chunks/edf728ade32a04ce.js",
+                    "lineNumber": 0,
+                    "columnNumber": 30292
+                  },
+                  {
+                    "functionName": "s3",
+                    "scriptId": "20",
+                    "url": "https://b2bmedplatform-hmnupqbbx-kushagras-projects-82da7c81.vercel.app/_next/static/chunks/edf728ade32a04ce.js",
+                    "lineNumber": 0,
+                    "columnNumber": 163030
+                  },
+                  {
+                    "functionName": "fC",
+                    "scriptId": "20",
+                    "url": "https://b2bmedplatform-hmnupqbbx-kushagras-projects-82da7c81.vercel.app/_next/static/chunks/edf728ade32a04ce.js",
+                    "lineNumber": 0,
+                    "columnNumber": 198996
+                  },
+                  {
+                    "functionName": "fP",
+                    "scriptId": "20",
+                    "url": "https://b2bmedplatform-hmnupqbbx-kushagras-projects-82da7c81.vercel.app/_next/static/chunks/edf728ade32a04ce.js",
+                    "lineNumber": 0,
+                    "columnNumber": 198818
+                  }
+                ]
+              }
+            }
+          }
+        },
+        "_priority": "High",
+        "_resourceType": "fetch",
+        "cache": {},
+        "connection": "443",
+        "request": {
+          "method": "POST",
+          "url": "https://b2bmedplatform-hmnupqbbx-kushagras-projects-82da7c81.vercel.app/api/auth/callback/credentials?",
+          "httpVersion": "http/2.0",
+          "headers": [
+            {
+              "name": ":authority",
+              "value": "b2bmedplatform-hmnupqbbx-kushagras-projects-82da7c81.vercel.app"
+            },
+            {
+              "name": ":method",
+              "value": "POST"
+            },
+            {
+              "name": ":path",
+              "value": "/api/auth/callback/credentials?"
+            },
+            {
+              "name": ":scheme",
+              "value": "https"
+            },
+            {
+              "name": "accept",
+              "value": "*/*"
+            },
+            {
+              "name": "accept-encoding",
+              "value": "gzip, deflate, br, zstd"
+            },
+            {
+              "name": "accept-language",
+              "value": "en-GB,en-US;q=0.9,en;q=0.8,hi;q=0.7,bho;q=0.6,te;q=0.5"
+            },
+            {
+              "name": "content-length",
+              "value": "256"
+            },
+            {
+              "name": "content-type",
+              "value": "application/x-www-form-urlencoded"
+            },
+            {
+              "name": "origin",
+              "value": "https://b2bmedplatform-hmnupqbbx-kushagras-projects-82da7c81.vercel.app"
+            },
+            {
+              "name": "priority",
+              "value": "u=1, i"
+            },
+            {
+              "name": "referer",
+              "value": "https://b2bmedplatform-hmnupqbbx-kushagras-projects-82da7c81.vercel.app/login?callbackUrl=%2Fadmin%2Fdashboard"
+            },
+            {
+              "name": "sec-ch-ua",
+              "value": "\"Not(A:Brand\";v=\"8\", \"Chromium\";v=\"144\", \"Google Chrome\";v=\"144\""
+            },
+            {
+              "name": "sec-ch-ua-mobile",
+              "value": "?0"
+            },
+            {
+              "name": "sec-ch-ua-platform",
+              "value": "\"macOS\""
+            },
+            {
+              "name": "sec-fetch-dest",
+              "value": "empty"
+            },
+            {
+              "name": "sec-fetch-mode",
+              "value": "cors"
+            },
+            {
+              "name": "sec-fetch-site",
+              "value": "same-origin"
+            },
+            {
+              "name": "user-agent",
+              "value": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36"
+            },
+            {
+              "name": "x-auth-return-redirect",
+              "value": "1"
+            }
+          ],
+          "queryString": [],
+          "cookies": [],
+          "headersSize": -1,
+          "bodySize": 256,
+          "postData": {
+            "mimeType": "application/x-www-form-urlencoded",
+            "text": "email=admin%40medb2b.com&password=admin123&csrfToken=a208892ae2c0d18e5486bad00a26b13d351ed483a6ea67783f7b69c539539dca&callbackUrl=https%3A%2F%2Fb2bmedplatform-hmnupqbbx-kushagras-projects-82da7c81.vercel.app%2Flogin%3FcallbackUrl%3D%252Fadmin%252Fdashboard",
+            "params": [
+              {
+                "name": "email",
+                "value": "admin%40medb2b.com"
+              },
+              {
+                "name": "password",
+                "value": "admin123"
+              },
+              {
+                "name": "csrfToken",
+                "value": "a208892ae2c0d18e5486bad00a26b13d351ed483a6ea67783f7b69c539539dca"
+              },
+              {
+                "name": "callbackUrl",
+                "value": "https%3A%2F%2Fb2bmedplatform-hmnupqbbx-kushagras-projects-82da7c81.vercel.app%2Flogin%3FcallbackUrl%3D%252Fadmin%252Fdashboard"
+              }
+            ]
+          }
+        },
+        "response": {
+          "status": 200,
+          "statusText": "",
+          "httpVersion": "http/2.0",
+          "headers": [
+            {
+              "name": "cache-control",
+              "value": "public, max-age=0, must-revalidate"
+            },
+            {
+              "name": "content-encoding",
+              "value": "br"
+            },
+            {
+              "name": "content-type",
+              "value": "application/json"
+            },
+            {
+              "name": "date",
+              "value": "Sat, 31 Jan 2026 09:20:21 GMT"
+            },
+            {
+              "name": "location",
+              "value": "https://b2bmedplatform-c826u4w4v-kushagras-projects-82da7c81.vercel.app"
+            },
+            {
+              "name": "server",
+              "value": "Vercel"
+            },
+            {
+              "name": "strict-transport-security",
+              "value": "max-age=63072000; includeSubDomains; preload"
+            },
+            {
+              "name": "vary",
+              "value": "rsc, next-router-state-tree, next-router-prefetch, next-router-segment-prefetch"
+            },
+            {
+              "name": "x-matched-path",
+              "value": "/api/auth/[...nextauth]"
+            },
+            {
+              "name": "x-robots-tag",
+              "value": "noindex"
+            },
+            {
+              "name": "x-vercel-cache",
+              "value": "MISS"
+            },
+            {
+              "name": "x-vercel-id",
+              "value": "bom1::iad1::56htk-1769851220252-22a49d31d00f"
+            }
+          ],
+          "cookies": [],
+          "content": {
+            "size": 81,
+            "mimeType": "application/json",
+            "text": "{\"url\":\"https://b2bmedplatform-c826u4w4v-kushagras-projects-82da7c81.vercel.app\"}"
+          },
+          "redirectURL": "https://b2bmedplatform-c826u4w4v-kushagras-projects-82da7c81.vercel.app",
+          "headersSize": -1,
+          "bodySize": -1,
+          "_transferSize": 718,
+          "_error": null,
+          "_fetchedViaServiceWorker": false
+        },
+        "serverIPAddress": "216.198.79.3",
+        "startedDateTime": "2026-01-31T09:20:20.209Z",
+        "time": 1129.8599999863654,
+        "timings": {
+          "blocked": 0.9840000144466758,
+          "dns": -1,
+          "ssl": -1,
+          "connect": -1,
+          "send": 0.341,
+          "wait": 1127.8380000197217,
+          "receive": 0.6969999521970749,
+          "_blocked_queueing": 0.5370000144466758,
+          "_workerStart": -1,
+          "_workerReady": -1,
+          "_workerFetchStart": -1,
+          "_workerRespondWithSettled": -1
+        }
+      },
+      {
+        "_connectionId": "102738",
+        "_initiator": {
+          "type": "script",
+          "stack": {
+            "callFrames": [
+              {
+                "functionName": "window.fetch",
+                "scriptId": "30",
+                "url": "chrome-extension://iohjgamcilhbgmhbnllfolmkmmekfmci/injected-scripts/host-network-events.js",
+                "lineNumber": 0,
+                "columnNumber": 168642
+              }
+            ],
+            "parent": {
+              "description": "await",
+              "callFrames": [
+                {
+                  "functionName": "i",
+                  "scriptId": "24",
+                  "url": "https://b2bmedplatform-hmnupqbbx-kushagras-projects-82da7c81.vercel.app/_next/static/chunks/15e2eefaace67d07.js",
+                  "lineNumber": 0,
+                  "columnNumber": 925
+                },
+                {
+                  "functionName": "m",
+                  "scriptId": "24",
+                  "url": "https://b2bmedplatform-hmnupqbbx-kushagras-projects-82da7c81.vercel.app/_next/static/chunks/15e2eefaace67d07.js",
+                  "lineNumber": 0,
+                  "columnNumber": 2633
+                },
+                {
+                  "functionName": "",
+                  "scriptId": "24",
+                  "url": "https://b2bmedplatform-hmnupqbbx-kushagras-projects-82da7c81.vercel.app/_next/static/chunks/15e2eefaace67d07.js",
+                  "lineNumber": 1,
+                  "columnNumber": 1638
+                },
+                {
+                  "functionName": "b",
+                  "scriptId": "24",
+                  "url": "https://b2bmedplatform-hmnupqbbx-kushagras-projects-82da7c81.vercel.app/_next/static/chunks/15e2eefaace67d07.js",
+                  "lineNumber": 1,
+                  "columnNumber": 590
+                }
+              ],
+              "parent": {
+                "description": "await",
+                "callFrames": [
+                  {
+                    "functionName": "m",
+                    "scriptId": "27",
+                    "url": "https://b2bmedplatform-hmnupqbbx-kushagras-projects-82da7c81.vercel.app/_next/static/chunks/8c277c3b87ec3870.js",
+                    "lineNumber": 0,
+                    "columnNumber": 9487
+                  },
+                  {
+                    "functionName": "sY",
+                    "scriptId": "20",
+                    "url": "https://b2bmedplatform-hmnupqbbx-kushagras-projects-82da7c81.vercel.app/_next/static/chunks/edf728ade32a04ce.js",
+                    "lineNumber": 0,
+                    "columnNumber": 161797
+                  },
+                  {
+                    "functionName": "",
+                    "scriptId": "20",
+                    "url": "https://b2bmedplatform-hmnupqbbx-kushagras-projects-82da7c81.vercel.app/_next/static/chunks/edf728ade32a04ce.js",
+                    "lineNumber": 0,
+                    "columnNumber": 167685
+                  },
+                  {
+                    "functionName": "tD",
+                    "scriptId": "20",
+                    "url": "https://b2bmedplatform-hmnupqbbx-kushagras-projects-82da7c81.vercel.app/_next/static/chunks/edf728ade32a04ce.js",
+                    "lineNumber": 0,
+                    "columnNumber": 30292
+                  },
+                  {
+                    "functionName": "s3",
+                    "scriptId": "20",
+                    "url": "https://b2bmedplatform-hmnupqbbx-kushagras-projects-82da7c81.vercel.app/_next/static/chunks/edf728ade32a04ce.js",
+                    "lineNumber": 0,
+                    "columnNumber": 163030
+                  },
+                  {
+                    "functionName": "fC",
+                    "scriptId": "20",
+                    "url": "https://b2bmedplatform-hmnupqbbx-kushagras-projects-82da7c81.vercel.app/_next/static/chunks/edf728ade32a04ce.js",
+                    "lineNumber": 0,
+                    "columnNumber": 198996
+                  },
+                  {
+                    "functionName": "fP",
+                    "scriptId": "20",
+                    "url": "https://b2bmedplatform-hmnupqbbx-kushagras-projects-82da7c81.vercel.app/_next/static/chunks/edf728ade32a04ce.js",
+                    "lineNumber": 0,
+                    "columnNumber": 198818
+                  }
+                ]
+              }
+            }
+          }
+        },
+        "_priority": "High",
+        "_resourceType": "fetch",
+        "cache": {},
+        "connection": "443",
+        "request": {
+          "method": "GET",
+          "url": "https://b2bmedplatform-hmnupqbbx-kushagras-projects-82da7c81.vercel.app/api/auth/session",
+          "httpVersion": "http/2.0",
+          "headers": [
+            {
+              "name": ":authority",
+              "value": "b2bmedplatform-hmnupqbbx-kushagras-projects-82da7c81.vercel.app"
+            },
+            {
+              "name": ":method",
+              "value": "GET"
+            },
+            {
+              "name": ":path",
+              "value": "/api/auth/session"
+            },
+            {
+              "name": ":scheme",
+              "value": "https"
+            },
+            {
+              "name": "accept",
+              "value": "*/*"
+            },
+            {
+              "name": "accept-encoding",
+              "value": "gzip, deflate, br, zstd"
+            },
+            {
+              "name": "accept-language",
+              "value": "en-GB,en-US;q=0.9,en;q=0.8,hi;q=0.7,bho;q=0.6,te;q=0.5"
+            },
+            {
+              "name": "content-type",
+              "value": "application/json"
+            },
+            {
+              "name": "priority",
+              "value": "u=1, i"
+            },
+            {
+              "name": "referer",
+              "value": "https://b2bmedplatform-hmnupqbbx-kushagras-projects-82da7c81.vercel.app/login?callbackUrl=%2Fadmin%2Fdashboard"
+            },
+            {
+              "name": "sec-ch-ua",
+              "value": "\"Not(A:Brand\";v=\"8\", \"Chromium\";v=\"144\", \"Google Chrome\";v=\"144\""
+            },
+            {
+              "name": "sec-ch-ua-mobile",
+              "value": "?0"
+            },
+            {
+              "name": "sec-ch-ua-platform",
+              "value": "\"macOS\""
+            },
+            {
+              "name": "sec-fetch-dest",
+              "value": "empty"
+            },
+            {
+              "name": "sec-fetch-mode",
+              "value": "cors"
+            },
+            {
+              "name": "sec-fetch-site",
+              "value": "same-origin"
+            },
+            {
+              "name": "user-agent",
+              "value": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36"
+            }
+          ],
+          "queryString": [],
+          "cookies": [],
+          "headersSize": -1,
+          "bodySize": 0
+        },
+        "response": {
+          "status": 200,
+          "statusText": "",
+          "httpVersion": "http/2.0",
+          "headers": [
+            {
+              "name": "age",
+              "value": "0"
+            },
+            {
+              "name": "cache-control",
+              "value": "private, no-cache, no-store"
+            },
+            {
+              "name": "content-encoding",
+              "value": "br"
+            },
+            {
+              "name": "content-type",
+              "value": "application/json"
+            },
+            {
+              "name": "date",
+              "value": "Sat, 31 Jan 2026 09:20:21 GMT"
+            },
+            {
+              "name": "expires",
+              "value": "0"
+            },
+            {
+              "name": "pragma",
+              "value": "no-cache"
+            },
+            {
+              "name": "server",
+              "value": "Vercel"
+            },
+            {
+              "name": "strict-transport-security",
+              "value": "max-age=63072000; includeSubDomains; preload"
+            },
+            {
+              "name": "vary",
+              "value": "rsc, next-router-state-tree, next-router-prefetch, next-router-segment-prefetch"
+            },
+            {
+              "name": "x-matched-path",
+              "value": "/api/auth/[...nextauth]"
+            },
+            {
+              "name": "x-robots-tag",
+              "value": "noindex"
+            },
+            {
+              "name": "x-vercel-cache",
+              "value": "MISS"
+            },
+            {
+              "name": "x-vercel-id",
+              "value": "bom1::iad1::xmck9-1769851221383-68aacdd677ef"
+            }
+          ],
+          "cookies": [],
+          "content": {
+            "size": 159,
+            "mimeType": "application/json",
+            "text": "{\"user\":{\"name\":\"Admin User\",\"email\":\"admin@medb2b.com\",\"id\":\"697da3bfc7bb1e635d363eed\",\"role\":\"admin\",\"status\":\"active\"},\"expires\":\"2026-02-01T09:20:21.522Z\"}"
+          },
+          "redirectURL": "",
+          "headersSize": -1,
+          "bodySize": -1,
+          "_transferSize": 819,
+          "_error": null,
+          "_fetchedViaServiceWorker": false
+        },
+        "serverIPAddress": "216.198.79.3",
+        "startedDateTime": "2026-01-31T09:20:21.340Z",
+        "time": 291.95700003765523,
+        "timings": {
+          "blocked": 0.8279999993741513,
+          "dns": -1,
+          "ssl": -1,
+          "connect": -1,
+          "send": 0.269,
+          "wait": 289.9380000026375,
+          "receive": 0.9220000356435776,
+          "_blocked_queueing": 0.42799999937415123,
+          "_workerStart": -1,
+          "_workerReady": -1,
+          "_workerFetchStart": -1,
+          "_workerRespondWithSettled": -1
+        }
+      },
+      {
+        "_connectionId": "102738",
+        "_initiator": {
+          "type": "script",
+          "stack": {
+            "callFrames": [
+              {
+                "functionName": "window.fetch",
+                "scriptId": "30",
+                "url": "chrome-extension://iohjgamcilhbgmhbnllfolmkmmekfmci/injected-scripts/host-network-events.js",
+                "lineNumber": 0,
+                "columnNumber": 168642
+              }
+            ],
+            "parent": {
+              "description": "await",
+              "callFrames": [
+                {
+                  "functionName": "R",
+                  "scriptId": "22",
+                  "url": "https://b2bmedplatform-hmnupqbbx-kushagras-projects-82da7c81.vercel.app/_next/static/chunks/585df5d56a3555ef.js",
+                  "lineNumber": 0,
+                  "columnNumber": 43143
+                },
+                {
+                  "functionName": "b",
+                  "scriptId": "22",
+                  "url": "https://b2bmedplatform-hmnupqbbx-kushagras-projects-82da7c81.vercel.app/_next/static/chunks/585df5d56a3555ef.js",
+                  "lineNumber": 0,
+                  "columnNumber": 41953
+                },
+                {
+                  "functionName": "b",
+                  "scriptId": "22",
+                  "url": "https://b2bmedplatform-hmnupqbbx-kushagras-projects-82da7c81.vercel.app/_next/static/chunks/585df5d56a3555ef.js",
+                  "lineNumber": 0,
+                  "columnNumber": 91113
+                },
+                {
+                  "functionName": "d",
+                  "scriptId": "22",
+                  "url": "https://b2bmedplatform-hmnupqbbx-kushagras-projects-82da7c81.vercel.app/_next/static/chunks/585df5d56a3555ef.js",
+                  "lineNumber": 0,
+                  "columnNumber": 88921
+                },
+                {
+                  "functionName": "y",
+                  "scriptId": "22",
+                  "url": "https://b2bmedplatform-hmnupqbbx-kushagras-projects-82da7c81.vercel.app/_next/static/chunks/585df5d56a3555ef.js",
+                  "lineNumber": 0,
+                  "columnNumber": 94024
+                },
+                {
+                  "functionName": "",
+                  "scriptId": "22",
+                  "url": "https://b2bmedplatform-hmnupqbbx-kushagras-projects-82da7c81.vercel.app/_next/static/chunks/585df5d56a3555ef.js",
+                  "lineNumber": 1,
+                  "columnNumber": 3627
+                },
+                {
+                  "functionName": "action",
+                  "scriptId": "22",
+                  "url": "https://b2bmedplatform-hmnupqbbx-kushagras-projects-82da7c81.vercel.app/_next/static/chunks/585df5d56a3555ef.js",
+                  "lineNumber": 1,
+                  "columnNumber": 6481
+                },
+                {
+                  "functionName": "g",
+                  "scriptId": "22",
+                  "url": "https://b2bmedplatform-hmnupqbbx-kushagras-projects-82da7c81.vercel.app/_next/static/chunks/585df5d56a3555ef.js",
+                  "lineNumber": 1,
+                  "columnNumber": 5676
+                },
+                {
+                  "functionName": "",
+                  "scriptId": "22",
+                  "url": "https://b2bmedplatform-hmnupqbbx-kushagras-projects-82da7c81.vercel.app/_next/static/chunks/585df5d56a3555ef.js",
+                  "lineNumber": 1,
+                  "columnNumber": 6218
+                },
+                {
+                  "functionName": "dispatch",
+                  "scriptId": "22",
+                  "url": "https://b2bmedplatform-hmnupqbbx-kushagras-projects-82da7c81.vercel.app/_next/static/chunks/585df5d56a3555ef.js",
+                  "lineNumber": 1,
+                  "columnNumber": 6441
+                },
+                {
+                  "functionName": "o",
+                  "scriptId": "22",
+                  "url": "https://b2bmedplatform-hmnupqbbx-kushagras-projects-82da7c81.vercel.app/_next/static/chunks/585df5d56a3555ef.js",
+                  "lineNumber": 0,
+                  "columnNumber": 26949
+                },
+                {
+                  "functionName": "i",
+                  "scriptId": "22",
+                  "url": "https://b2bmedplatform-hmnupqbbx-kushagras-projects-82da7c81.vercel.app/_next/static/chunks/585df5d56a3555ef.js",
+                  "lineNumber": 0,
+                  "columnNumber": 26886
+                },
+                {
+                  "functionName": "m",
+                  "scriptId": "22",
+                  "url": "https://b2bmedplatform-hmnupqbbx-kushagras-projects-82da7c81.vercel.app/_next/static/chunks/585df5d56a3555ef.js",
+                  "lineNumber": 1,
+                  "columnNumber": 7111
+                },
+                {
+                  "functionName": "",
+                  "scriptId": "22",
+                  "url": "https://b2bmedplatform-hmnupqbbx-kushagras-projects-82da7c81.vercel.app/_next/static/chunks/585df5d56a3555ef.js",
+                  "lineNumber": 1,
+                  "columnNumber": 8055
+                },
+                {
+                  "functionName": "U",
+                  "scriptId": "19",
+                  "url": "https://b2bmedplatform-hmnupqbbx-kushagras-projects-82da7c81.vercel.app/_next/static/chunks/52e6bdfb7669c9ec.js",
+                  "lineNumber": 0,
+                  "columnNumber": 24430
+                },
+                {
+                  "functionName": "push",
+                  "scriptId": "22",
+                  "url": "https://b2bmedplatform-hmnupqbbx-kushagras-projects-82da7c81.vercel.app/_next/static/chunks/585df5d56a3555ef.js",
+                  "lineNumber": 1,
+                  "columnNumber": 8049
+                },
+                {
+                  "functionName": "m",
+                  "scriptId": "27",
+                  "url": "https://b2bmedplatform-hmnupqbbx-kushagras-projects-82da7c81.vercel.app/_next/static/chunks/8c277c3b87ec3870.js",
+                  "lineNumber": 0,
+                  "columnNumber": 9559
+                }
+              ],
+              "parent": {
+                "description": "await",
+                "callFrames": [
+                  {
+                    "functionName": "sY",
+                    "scriptId": "20",
+                    "url": "https://b2bmedplatform-hmnupqbbx-kushagras-projects-82da7c81.vercel.app/_next/static/chunks/edf728ade32a04ce.js",
+                    "lineNumber": 0,
+                    "columnNumber": 161797
+                  },
+                  {
+                    "functionName": "",
+                    "scriptId": "20",
+                    "url": "https://b2bmedplatform-hmnupqbbx-kushagras-projects-82da7c81.vercel.app/_next/static/chunks/edf728ade32a04ce.js",
+                    "lineNumber": 0,
+                    "columnNumber": 167685
+                  },
+                  {
+                    "functionName": "tD",
+                    "scriptId": "20",
+                    "url": "https://b2bmedplatform-hmnupqbbx-kushagras-projects-82da7c81.vercel.app/_next/static/chunks/edf728ade32a04ce.js",
+                    "lineNumber": 0,
+                    "columnNumber": 30292
+                  },
+                  {
+                    "functionName": "s3",
+                    "scriptId": "20",
+                    "url": "https://b2bmedplatform-hmnupqbbx-kushagras-projects-82da7c81.vercel.app/_next/static/chunks/edf728ade32a04ce.js",
+                    "lineNumber": 0,
+                    "columnNumber": 163030
+                  },
+                  {
+                    "functionName": "fC",
+                    "scriptId": "20",
+                    "url": "https://b2bmedplatform-hmnupqbbx-kushagras-projects-82da7c81.vercel.app/_next/static/chunks/edf728ade32a04ce.js",
+                    "lineNumber": 0,
+                    "columnNumber": 198996
+                  },
+                  {
+                    "functionName": "fP",
+                    "scriptId": "20",
+                    "url": "https://b2bmedplatform-hmnupqbbx-kushagras-projects-82da7c81.vercel.app/_next/static/chunks/edf728ade32a04ce.js",
+                    "lineNumber": 0,
+                    "columnNumber": 198818
+                  }
+                ]
+              }
+            }
+          }
+        },
+        "_priority": "High",
+        "_resourceType": "fetch",
+        "cache": {},
+        "connection": "443",
+        "request": {
+          "method": "GET",
+          "url": "https://b2bmedplatform-hmnupqbbx-kushagras-projects-82da7c81.vercel.app/admin/dashboard?_rsc=5c339",
+          "httpVersion": "http/2.0",
+          "headers": [
+            {
+              "name": ":authority",
+              "value": "b2bmedplatform-hmnupqbbx-kushagras-projects-82da7c81.vercel.app"
+            },
+            {
+              "name": ":method",
+              "value": "GET"
+            },
+            {
+              "name": ":path",
+              "value": "/admin/dashboard?_rsc=5c339"
+            },
+            {
+              "name": ":scheme",
+              "value": "https"
+            },
+            {
+              "name": "accept",
+              "value": "*/*"
+            },
+            {
+              "name": "accept-encoding",
+              "value": "gzip, deflate, br, zstd"
+            },
+            {
+              "name": "accept-language",
+              "value": "en-GB,en-US;q=0.9,en;q=0.8,hi;q=0.7,bho;q=0.6,te;q=0.5"
+            },
+            {
+              "name": "next-router-state-tree",
+              "value": "%5B%22%22%2C%7B%22children%22%3A%5B%22login%22%2C%7B%22children%22%3A%5B%22__PAGE__%22%2C%7B%7D%2Cnull%2Cnull%5D%7D%2Cnull%2Cnull%5D%7D%2Cnull%2Cnull%2Ctrue%5D"
+            },
+            {
+              "name": "next-url",
+              "value": "/login"
+            },
+            {
+              "name": "priority",
+              "value": "u=1, i"
+            },
+            {
+              "name": "referer",
+              "value": "https://b2bmedplatform-hmnupqbbx-kushagras-projects-82da7c81.vercel.app/login?callbackUrl=%2Fadmin%2Fdashboard"
+            },
+            {
+              "name": "rsc",
+              "value": "1"
+            },
+            {
+              "name": "sec-ch-ua",
+              "value": "\"Not(A:Brand\";v=\"8\", \"Chromium\";v=\"144\", \"Google Chrome\";v=\"144\""
+            },
+            {
+              "name": "sec-ch-ua-mobile",
+              "value": "?0"
+            },
+            {
+              "name": "sec-ch-ua-platform",
+              "value": "\"macOS\""
+            },
+            {
+              "name": "sec-fetch-dest",
+              "value": "empty"
+            },
+            {
+              "name": "sec-fetch-mode",
+              "value": "cors"
+            },
+            {
+              "name": "sec-fetch-site",
+              "value": "same-origin"
+            },
+            {
+              "name": "user-agent",
+              "value": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36"
+            }
+          ],
+          "queryString": [
+            {
+              "name": "_rsc",
+              "value": "5c339"
+            }
+          ],
+          "cookies": [],
+          "headersSize": -1,
+          "bodySize": 0
+        },
+        "response": {
+          "status": 307,
+          "statusText": "",
+          "httpVersion": "http/2.0",
+          "headers": [
+            {
+              "name": "cache-control",
+              "value": "public, max-age=0, must-revalidate"
+            },
+            {
+              "name": "content-type",
+              "value": "text/plain"
+            },
+            {
+              "name": "date",
+              "value": "Sat, 31 Jan 2026 09:20:21 GMT"
+            },
+            {
+              "name": "location",
+              "value": "/login?callbackUrl=%2Fadmin%2Fdashboard"
+            },
+            {
+              "name": "server",
+              "value": "Vercel"
+            },
+            {
+              "name": "strict-transport-security",
+              "value": "max-age=63072000; includeSubDomains; preload"
+            },
+            {
+              "name": "x-robots-tag",
+              "value": "noindex"
+            },
+            {
+              "name": "x-vercel-id",
+              "value": "bom1::pndgp-1769851221678-13ab396f6614"
+            }
+          ],
+          "cookies": [],
+          "content": {
+            "size": 0,
+            "mimeType": "text/plain"
+          },
+          "redirectURL": "/login?callbackUrl=%2Fadmin%2Fdashboard",
+          "headersSize": -1,
+          "bodySize": -1,
+          "_transferSize": 107,
+          "_error": null,
+          "_fetchedViaServiceWorker": false
+        },
+        "serverIPAddress": "216.198.79.3",
+        "startedDateTime": "2026-01-31T09:20:21.634Z",
+        "time": 69.29900008253753,
+        "timings": {
+          "blocked": 1.4000000706538558,
+          "dns": -1,
+          "ssl": -1,
+          "connect": -1,
+          "send": 0.41700000000000004,
+          "wait": 66.40100004610419,
+          "receive": 1.0809999657794833,
+          "_blocked_queueing": 0.7890000706538558,
+          "_workerStart": -1,
+          "_workerReady": -1,
+          "_workerFetchStart": -1,
+          "_workerRespondWithSettled": -1
+        }
+      },
+      {
+        "_connectionId": "102738",
+        "_initiator": {
+          "type": "script",
+          "stack": {
+            "callFrames": [
+              {
+                "functionName": "window.fetch",
+                "scriptId": "30",
+                "url": "chrome-extension://iohjgamcilhbgmhbnllfolmkmmekfmci/injected-scripts/host-network-events.js",
+                "lineNumber": 0,
+                "columnNumber": 168642
+              }
+            ],
+            "parent": {
+              "description": "await",
+              "callFrames": [
+                {
+                  "functionName": "R",
+                  "scriptId": "22",
+                  "url": "https://b2bmedplatform-hmnupqbbx-kushagras-projects-82da7c81.vercel.app/_next/static/chunks/585df5d56a3555ef.js",
+                  "lineNumber": 0,
+                  "columnNumber": 43143
+                },
+                {
+                  "functionName": "b",
+                  "scriptId": "22",
+                  "url": "https://b2bmedplatform-hmnupqbbx-kushagras-projects-82da7c81.vercel.app/_next/static/chunks/585df5d56a3555ef.js",
+                  "lineNumber": 0,
+                  "columnNumber": 41953
+                },
+                {
+                  "functionName": "b",
+                  "scriptId": "22",
+                  "url": "https://b2bmedplatform-hmnupqbbx-kushagras-projects-82da7c81.vercel.app/_next/static/chunks/585df5d56a3555ef.js",
+                  "lineNumber": 0,
+                  "columnNumber": 91113
+                },
+                {
+                  "functionName": "d",
+                  "scriptId": "22",
+                  "url": "https://b2bmedplatform-hmnupqbbx-kushagras-projects-82da7c81.vercel.app/_next/static/chunks/585df5d56a3555ef.js",
+                  "lineNumber": 0,
+                  "columnNumber": 88921
+                },
+                {
+                  "functionName": "y",
+                  "scriptId": "22",
+                  "url": "https://b2bmedplatform-hmnupqbbx-kushagras-projects-82da7c81.vercel.app/_next/static/chunks/585df5d56a3555ef.js",
+                  "lineNumber": 0,
+                  "columnNumber": 94024
+                },
+                {
+                  "functionName": "",
+                  "scriptId": "22",
+                  "url": "https://b2bmedplatform-hmnupqbbx-kushagras-projects-82da7c81.vercel.app/_next/static/chunks/585df5d56a3555ef.js",
+                  "lineNumber": 1,
+                  "columnNumber": 3627
+                },
+                {
+                  "functionName": "action",
+                  "scriptId": "22",
+                  "url": "https://b2bmedplatform-hmnupqbbx-kushagras-projects-82da7c81.vercel.app/_next/static/chunks/585df5d56a3555ef.js",
+                  "lineNumber": 1,
+                  "columnNumber": 6481
+                },
+                {
+                  "functionName": "g",
+                  "scriptId": "22",
+                  "url": "https://b2bmedplatform-hmnupqbbx-kushagras-projects-82da7c81.vercel.app/_next/static/chunks/585df5d56a3555ef.js",
+                  "lineNumber": 1,
+                  "columnNumber": 5676
+                },
+                {
+                  "functionName": "",
+                  "scriptId": "22",
+                  "url": "https://b2bmedplatform-hmnupqbbx-kushagras-projects-82da7c81.vercel.app/_next/static/chunks/585df5d56a3555ef.js",
+                  "lineNumber": 1,
+                  "columnNumber": 6218
+                },
+                {
+                  "functionName": "dispatch",
+                  "scriptId": "22",
+                  "url": "https://b2bmedplatform-hmnupqbbx-kushagras-projects-82da7c81.vercel.app/_next/static/chunks/585df5d56a3555ef.js",
+                  "lineNumber": 1,
+                  "columnNumber": 6441
+                },
+                {
+                  "functionName": "o",
+                  "scriptId": "22",
+                  "url": "https://b2bmedplatform-hmnupqbbx-kushagras-projects-82da7c81.vercel.app/_next/static/chunks/585df5d56a3555ef.js",
+                  "lineNumber": 0,
+                  "columnNumber": 26949
+                },
+                {
+                  "functionName": "i",
+                  "scriptId": "22",
+                  "url": "https://b2bmedplatform-hmnupqbbx-kushagras-projects-82da7c81.vercel.app/_next/static/chunks/585df5d56a3555ef.js",
+                  "lineNumber": 0,
+                  "columnNumber": 26886
+                },
+                {
+                  "functionName": "m",
+                  "scriptId": "22",
+                  "url": "https://b2bmedplatform-hmnupqbbx-kushagras-projects-82da7c81.vercel.app/_next/static/chunks/585df5d56a3555ef.js",
+                  "lineNumber": 1,
+                  "columnNumber": 7111
+                },
+                {
+                  "functionName": "",
+                  "scriptId": "22",
+                  "url": "https://b2bmedplatform-hmnupqbbx-kushagras-projects-82da7c81.vercel.app/_next/static/chunks/585df5d56a3555ef.js",
+                  "lineNumber": 1,
+                  "columnNumber": 8055
+                },
+                {
+                  "functionName": "U",
+                  "scriptId": "19",
+                  "url": "https://b2bmedplatform-hmnupqbbx-kushagras-projects-82da7c81.vercel.app/_next/static/chunks/52e6bdfb7669c9ec.js",
+                  "lineNumber": 0,
+                  "columnNumber": 24430
+                },
+                {
+                  "functionName": "push",
+                  "scriptId": "22",
+                  "url": "https://b2bmedplatform-hmnupqbbx-kushagras-projects-82da7c81.vercel.app/_next/static/chunks/585df5d56a3555ef.js",
+                  "lineNumber": 1,
+                  "columnNumber": 8049
+                },
+                {
+                  "functionName": "m",
+                  "scriptId": "27",
+                  "url": "https://b2bmedplatform-hmnupqbbx-kushagras-projects-82da7c81.vercel.app/_next/static/chunks/8c277c3b87ec3870.js",
+                  "lineNumber": 0,
+                  "columnNumber": 9559
+                }
+              ],
+              "parent": {
+                "description": "await",
+                "callFrames": [
+                  {
+                    "functionName": "sY",
+                    "scriptId": "20",
+                    "url": "https://b2bmedplatform-hmnupqbbx-kushagras-projects-82da7c81.vercel.app/_next/static/chunks/edf728ade32a04ce.js",
+                    "lineNumber": 0,
+                    "columnNumber": 161797
+                  },
+                  {
+                    "functionName": "",
+                    "scriptId": "20",
+                    "url": "https://b2bmedplatform-hmnupqbbx-kushagras-projects-82da7c81.vercel.app/_next/static/chunks/edf728ade32a04ce.js",
+                    "lineNumber": 0,
+                    "columnNumber": 167685
+                  },
+                  {
+                    "functionName": "tD",
+                    "scriptId": "20",
+                    "url": "https://b2bmedplatform-hmnupqbbx-kushagras-projects-82da7c81.vercel.app/_next/static/chunks/edf728ade32a04ce.js",
+                    "lineNumber": 0,
+                    "columnNumber": 30292
+                  },
+                  {
+                    "functionName": "s3",
+                    "scriptId": "20",
+                    "url": "https://b2bmedplatform-hmnupqbbx-kushagras-projects-82da7c81.vercel.app/_next/static/chunks/edf728ade32a04ce.js",
+                    "lineNumber": 0,
+                    "columnNumber": 163030
+                  },
+                  {
+                    "functionName": "fC",
+                    "scriptId": "20",
+                    "url": "https://b2bmedplatform-hmnupqbbx-kushagras-projects-82da7c81.vercel.app/_next/static/chunks/edf728ade32a04ce.js",
+                    "lineNumber": 0,
+                    "columnNumber": 198996
+                  },
+                  {
+                    "functionName": "fP",
+                    "scriptId": "20",
+                    "url": "https://b2bmedplatform-hmnupqbbx-kushagras-projects-82da7c81.vercel.app/_next/static/chunks/edf728ade32a04ce.js",
+                    "lineNumber": 0,
+                    "columnNumber": 198818
+                  }
+                ]
+              }
+            }
+          }
+        },
+        "_priority": "High",
+        "_resourceType": "fetch",
+        "cache": {},
+        "connection": "443",
+        "request": {
+          "method": "GET",
+          "url": "https://b2bmedplatform-hmnupqbbx-kushagras-projects-82da7c81.vercel.app/login?callbackUrl=%2Fadmin%2Fdashboard",
+          "httpVersion": "http/2.0",
+          "headers": [
+            {
+              "name": ":authority",
+              "value": "b2bmedplatform-hmnupqbbx-kushagras-projects-82da7c81.vercel.app"
+            },
+            {
+              "name": ":method",
+              "value": "GET"
+            },
+            {
+              "name": ":path",
+              "value": "/login?callbackUrl=%2Fadmin%2Fdashboard"
+            },
+            {
+              "name": ":scheme",
+              "value": "https"
+            },
+            {
+              "name": "accept",
+              "value": "*/*"
+            },
+            {
+              "name": "accept-encoding",
+              "value": "gzip, deflate, br, zstd"
+            },
+            {
+              "name": "accept-language",
+              "value": "en-GB,en-US;q=0.9,en;q=0.8,hi;q=0.7,bho;q=0.6,te;q=0.5"
+            },
+            {
+              "name": "if-none-match",
+              "value": "W/\"e2f65e10c5a2e890d759d0952c2af0af\""
+            },
+            {
+              "name": "next-router-state-tree",
+              "value": "%5B%22%22%2C%7B%22children%22%3A%5B%22login%22%2C%7B%22children%22%3A%5B%22__PAGE__%22%2C%7B%7D%2Cnull%2Cnull%5D%7D%2Cnull%2Cnull%5D%7D%2Cnull%2Cnull%2Ctrue%5D"
+            },
+            {
+              "name": "next-url",
+              "value": "/login"
+            },
+            {
+              "name": "priority",
+              "value": "u=1, i"
+            },
+            {
+              "name": "referer",
+              "value": "https://b2bmedplatform-hmnupqbbx-kushagras-projects-82da7c81.vercel.app/login?callbackUrl=%2Fadmin%2Fdashboard"
+            },
+            {
+              "name": "rsc",
+              "value": "1"
+            },
+            {
+              "name": "sec-ch-ua",
+              "value": "\"Not(A:Brand\";v=\"8\", \"Chromium\";v=\"144\", \"Google Chrome\";v=\"144\""
+            },
+            {
+              "name": "sec-ch-ua-mobile",
+              "value": "?0"
+            },
+            {
+              "name": "sec-ch-ua-platform",
+              "value": "\"macOS\""
+            },
+            {
+              "name": "sec-fetch-dest",
+              "value": "empty"
+            },
+            {
+              "name": "sec-fetch-mode",
+              "value": "cors"
+            },
+            {
+              "name": "sec-fetch-site",
+              "value": "same-origin"
+            },
+            {
+              "name": "user-agent",
+              "value": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36"
+            }
+          ],
+          "queryString": [
+            {
+              "name": "callbackUrl",
+              "value": "%2Fadmin%2Fdashboard"
+            }
+          ],
+          "cookies": [],
+          "headersSize": -1,
+          "bodySize": 0
+        },
+        "response": {
+          "status": 304,
+          "statusText": "",
+          "httpVersion": "http/2.0",
+          "headers": [
+            {
+              "name": "cache-control",
+              "value": "public, max-age=0, must-revalidate"
+            },
+            {
+              "name": "date",
+              "value": "Sat, 31 Jan 2026 09:20:21 GMT"
+            },
+            {
+              "name": "server",
+              "value": "Vercel"
+            },
+            {
+              "name": "vary",
+              "value": "rsc, next-router-state-tree, next-router-prefetch, next-router-segment-prefetch"
+            },
+            {
+              "name": "x-vercel-cache",
+              "value": "HIT"
+            },
+            {
+              "name": "x-vercel-id",
+              "value": "bom1::pndgp-1769851221747-3af51bf73fcf"
+            }
+          ],
+          "cookies": [],
+          "content": {
+            "size": 4940,
+            "mimeType": "text/x-component",
+            "text": "1:\"$Sreact.fragment\"\n2:I[44636,[\"/_next/static/chunks/15e2eefaace67d07.js\"],\"Providers\"]\n3:I[39756,[\"/_next/static/chunks/ff1a16fafef87110.js\",\"/_next/static/chunks/4d348ff2302e5aac.js\"],\"default\"]\n4:I[37457,[\"/_next/static/chunks/ff1a16fafef87110.js\",\"/_next/static/chunks/4d348ff2302e5aac.js\"],\"default\"]\n5:I[47257,[\"/_next/static/chunks/ff1a16fafef87110.js\",\"/_next/static/chunks/4d348ff2302e5aac.js\"],\"ClientPageRoot\"]\n6:I[94542,[\"/_next/static/chunks/15e2eefaace67d07.js\",\"/_next/static/chunks/8c277c3b87ec3870.js\"],\"default\"]\n9:I[97367,[\"/_next/static/chunks/ff1a16fafef87110.js\",\"/_next/static/chunks/4d348ff2302e5aac.js\"],\"OutletBoundary\"]\na:\"$Sreact.suspense\"\nc:I[97367,[\"/_next/static/chunks/ff1a16fafef87110.js\",\"/_next/static/chunks/4d348ff2302e5aac.js\"],\"ViewportBoundary\"]\ne:I[97367,[\"/_next/static/chunks/ff1a16fafef87110.js\",\"/_next/static/chunks/4d348ff2302e5aac.js\"],\"MetadataBoundary\"]\n10:I[68027,[],\"default\"]\n:HL[\"/_next/static/chunks/0b2436d9ae588987.css\",\"style\"]\n:HL[\"/_next/static/media/797e433ab948586e-s.p.dbea232f.woff2\",\"font\",{\"crossOrigin\":\"\",\"type\":\"font/woff2\"}]\n:HL[\"/_next/static/media/caa3a2e1cccd8315-s.p.853070df.woff2\",\"font\",{\"crossOrigin\":\"\",\"type\":\"font/woff2\"}]\n0:{\"P\":null,\"b\":\"b-bQnOPV0wVJkqJQgy70z\",\"c\":[\"\",\"login\"],\"q\":\"\",\"i\":false,\"f\":[[[\"\",{\"children\":[\"login\",{\"children\":[\"__PAGE__\",{}]}]},\"$undefined\",\"$undefined\",true],[[\"$\",\"$1\",\"c\",{\"children\":[[[\"$\",\"link\",\"0\",{\"rel\":\"stylesheet\",\"href\":\"/_next/static/chunks/0b2436d9ae588987.css\",\"precedence\":\"next\",\"crossOrigin\":\"$undefined\",\"nonce\":\"$undefined\"}],[\"$\",\"script\",\"script-0\",{\"src\":\"/_next/static/chunks/15e2eefaace67d07.js\",\"async\":true,\"nonce\":\"$undefined\"}]],[\"$\",\"html\",null,{\"lang\":\"en\",\"children\":[\"$\",\"body\",null,{\"className\":\"geist_a71539c9-module__T19VSG__variable geist_mono_8d43a2aa-module__8Li5zG__variable antialiased\",\"children\":[\"$\",\"$L2\",null,{\"children\":[\"$\",\"$L3\",null,{\"parallelRouterKey\":\"children\",\"error\":\"$undefined\",\"errorStyles\":\"$undefined\",\"errorScripts\":\"$undefined\",\"template\":[\"$\",\"$L4\",null,{}],\"templateStyles\":\"$undefined\",\"templateScripts\":\"$undefined\",\"notFound\":[[[\"$\",\"title\",null,{\"children\":\"404: This page could not be found.\"}],[\"$\",\"div\",null,{\"style\":{\"fontFamily\":\"system-ui,\\\"Segoe UI\\\",Roboto,Helvetica,Arial,sans-serif,\\\"Apple Color Emoji\\\",\\\"Segoe UI Emoji\\\"\",\"height\":\"100vh\",\"textAlign\":\"center\",\"display\":\"flex\",\"flexDirection\":\"column\",\"alignItems\":\"center\",\"justifyContent\":\"center\"},\"children\":[\"$\",\"div\",null,{\"children\":[[\"$\",\"style\",null,{\"dangerouslySetInnerHTML\":{\"__html\":\"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}\"}}],[\"$\",\"h1\",null,{\"className\":\"next-error-h1\",\"style\":{\"display\":\"inline-block\",\"margin\":\"0 20px 0 0\",\"padding\":\"0 23px 0 0\",\"fontSize\":24,\"fontWeight\":500,\"verticalAlign\":\"top\",\"lineHeight\":\"49px\"},\"children\":404}],[\"$\",\"div\",null,{\"style\":{\"display\":\"inline-block\"},\"children\":[\"$\",\"h2\",null,{\"style\":{\"fontSize\":14,\"fontWeight\":400,\"lineHeight\":\"49px\",\"margin\":0},\"children\":\"This page could not be found.\"}]}]]}]}]],[]],\"forbidden\":\"$undefined\",\"unauthorized\":\"$undefined\"}]}]}]}]]}],{\"children\":[[\"$\",\"$1\",\"c\",{\"children\":[null,[\"$\",\"$L3\",null,{\"parallelRouterKey\":\"children\",\"error\":\"$undefined\",\"errorStyles\":\"$undefined\",\"errorScripts\":\"$undefined\",\"template\":[\"$\",\"$L4\",null,{}],\"templateStyles\":\"$undefined\",\"templateScripts\":\"$undefined\",\"notFound\":\"$undefined\",\"forbidden\":\"$undefined\",\"unauthorized\":\"$undefined\"}]]}],{\"children\":[[\"$\",\"$1\",\"c\",{\"children\":[[\"$\",\"$L5\",null,{\"Component\":\"$6\",\"serverProvidedParams\":{\"searchParams\":{},\"params\":{},\"promises\":[\"$@7\",\"$@8\"]}}],[[\"$\",\"script\",\"script-0\",{\"src\":\"/_next/static/chunks/8c277c3b87ec3870.js\",\"async\":true,\"nonce\":\"$undefined\"}]],[\"$\",\"$L9\",null,{\"children\":[\"$\",\"$a\",null,{\"name\":\"Next.MetadataOutlet\",\"children\":\"$@b\"}]}]]}],{},null,false,false]},null,false,false]},null,false,false],[\"$\",\"$1\",\"h\",{\"children\":[null,[\"$\",\"$Lc\",null,{\"children\":\"$Ld\"}],[\"$\",\"div\",null,{\"hidden\":true,\"children\":[\"$\",\"$Le\",null,{\"children\":[\"$\",\"$a\",null,{\"name\":\"Next.Metadata\",\"children\":\"$Lf\"}]}]}],[\"$\",\"meta\",null,{\"name\":\"next-size-adjust\",\"content\":\"\"}]]}],false]],\"m\":\"$undefined\",\"G\":[\"$10\",[]],\"S\":true}\n7:{}\n8:\"$0:f:0:1:1:children:1:children:0:props:children:0:props:serverProvidedParams:params\"\nd:[[\"$\",\"meta\",\"0\",{\"charSet\":\"utf-8\"}],[\"$\",\"meta\",\"1\",{\"name\":\"viewport\",\"content\":\"width=device-width, initial-scale=1\"}]]\n11:I[27201,[\"/_next/static/chunks/ff1a16fafef87110.js\",\"/_next/static/chunks/4d348ff2302e5aac.js\"],\"IconMark\"]\nb:null\nf:[[\"$\",\"title\",\"0\",{\"children\":\"Create Next App\"}],[\"$\",\"meta\",\"1\",{\"name\":\"description\",\"content\":\"Generated by create next app\"}],[\"$\",\"link\",\"2\",{\"rel\":\"icon\",\"href\":\"/favicon.ico?favicon.0b3bf435.ico\",\"sizes\":\"256x256\",\"type\":\"image/x-icon\"}],[\"$\",\"$L11\",\"3\",{}]]\n"
+          },
+          "redirectURL": "",
+          "headersSize": -1,
+          "bodySize": 0,
+          "_transferSize": 45,
+          "_error": null,
+          "_fetchedViaServiceWorker": false
+        },
+        "serverIPAddress": "216.198.79.3",
+        "startedDateTime": "2026-01-31T09:20:21.704Z",
+        "time": 68.33299994468689,
+        "timings": {
+          "blocked": 1.4520000135824085,
+          "dns": -1,
+          "ssl": -1,
+          "connect": -1,
+          "send": 0.41999999999999993,
+          "wait": 65.37200002082437,
+          "receive": 1.0889999102801085,
+          "_blocked_queueing": 0.38400001358240843,
+          "_workerStart": -1,
+          "_workerReady": -1,
+          "_workerFetchStart": -1,
+          "_workerRespondWithSettled": -1
+        }
+      },
+      {
+        "_connectionId": "102738",
+        "_initiator": {
+          "type": "script",
+          "stack": {
+            "callFrames": [
+              {
+                "functionName": "window.fetch",
+                "scriptId": "30",
+                "url": "chrome-extension://iohjgamcilhbgmhbnllfolmkmmekfmci/injected-scripts/host-network-events.js",
+                "lineNumber": 0,
+                "columnNumber": 168642
+              }
+            ],
+            "parent": {
+              "description": "await",
+              "callFrames": [
+                {
+                  "functionName": "R",
+                  "scriptId": "22",
+                  "url": "https://b2bmedplatform-hmnupqbbx-kushagras-projects-82da7c81.vercel.app/_next/static/chunks/585df5d56a3555ef.js",
+                  "lineNumber": 0,
+                  "columnNumber": 43143
+                },
+                {
+                  "functionName": "b",
+                  "scriptId": "22",
+                  "url": "https://b2bmedplatform-hmnupqbbx-kushagras-projects-82da7c81.vercel.app/_next/static/chunks/585df5d56a3555ef.js",
+                  "lineNumber": 0,
+                  "columnNumber": 41953
+                },
+                {
+                  "functionName": "A",
+                  "scriptId": "22",
+                  "url": "https://b2bmedplatform-hmnupqbbx-kushagras-projects-82da7c81.vercel.app/_next/static/chunks/585df5d56a3555ef.js",
+                  "lineNumber": 0,
+                  "columnNumber": 51078
+                },
+                {
+                  "functionName": "w",
+                  "scriptId": "22",
+                  "url": "https://b2bmedplatform-hmnupqbbx-kushagras-projects-82da7c81.vercel.app/_next/static/chunks/585df5d56a3555ef.js",
+                  "lineNumber": 0,
+                  "columnNumber": 49959
+                },
+                {
+                  "functionName": "h",
+                  "scriptId": "22",
+                  "url": "https://b2bmedplatform-hmnupqbbx-kushagras-projects-82da7c81.vercel.app/_next/static/chunks/585df5d56a3555ef.js",
+                  "lineNumber": 0,
+                  "columnNumber": 89169
+                },
+                {
+                  "functionName": "f",
+                  "scriptId": "22",
+                  "url": "https://b2bmedplatform-hmnupqbbx-kushagras-projects-82da7c81.vercel.app/_next/static/chunks/585df5d56a3555ef.js",
+                  "lineNumber": 0,
+                  "columnNumber": 95716
+                },
+                {
+                  "functionName": "c",
+                  "scriptId": "22",
+                  "url": "https://b2bmedplatform-hmnupqbbx-kushagras-projects-82da7c81.vercel.app/_next/static/chunks/585df5d56a3555ef.js",
+                  "lineNumber": 0,
+                  "columnNumber": 95409
+                },
+                {
+                  "functionName": "",
+                  "scriptId": "22",
+                  "url": "https://b2bmedplatform-hmnupqbbx-kushagras-projects-82da7c81.vercel.app/_next/static/chunks/585df5d56a3555ef.js",
+                  "lineNumber": 1,
+                  "columnNumber": 3798
+                },
+                {
+                  "functionName": "action",
+                  "scriptId": "22",
+                  "url": "https://b2bmedplatform-hmnupqbbx-kushagras-projects-82da7c81.vercel.app/_next/static/chunks/585df5d56a3555ef.js",
+                  "lineNumber": 1,
+                  "columnNumber": 6481
+                },
+                {
+                  "functionName": "g",
+                  "scriptId": "22",
+                  "url": "https://b2bmedplatform-hmnupqbbx-kushagras-projects-82da7c81.vercel.app/_next/static/chunks/585df5d56a3555ef.js",
+                  "lineNumber": 1,
+                  "columnNumber": 5676
+                },
+                {
+                  "functionName": "y",
+                  "scriptId": "22",
+                  "url": "https://b2bmedplatform-hmnupqbbx-kushagras-projects-82da7c81.vercel.app/_next/static/chunks/585df5d56a3555ef.js",
+                  "lineNumber": 1,
+                  "columnNumber": 5454
+                },
+                {
+                  "functionName": "o",
+                  "scriptId": "22",
+                  "url": "https://b2bmedplatform-hmnupqbbx-kushagras-projects-82da7c81.vercel.app/_next/static/chunks/585df5d56a3555ef.js",
+                  "lineNumber": 1,
+                  "columnNumber": 5828
+                }
+              ],
+              "parent": {
+                "description": "Promise.then",
+                "callFrames": [
+                  {
+                    "functionName": "g",
+                    "scriptId": "22",
+                    "url": "https://b2bmedplatform-hmnupqbbx-kushagras-projects-82da7c81.vercel.app/_next/static/chunks/585df5d56a3555ef.js",
+                    "lineNumber": 1,
+                    "columnNumber": 5870
+                  },
+                  {
+                    "functionName": "",
+                    "scriptId": "22",
+                    "url": "https://b2bmedplatform-hmnupqbbx-kushagras-projects-82da7c81.vercel.app/_next/static/chunks/585df5d56a3555ef.js",
+                    "lineNumber": 1,
+                    "columnNumber": 6218
+                  },
+                  {
+                    "functionName": "dispatch",
+                    "scriptId": "22",
+                    "url": "https://b2bmedplatform-hmnupqbbx-kushagras-projects-82da7c81.vercel.app/_next/static/chunks/585df5d56a3555ef.js",
+                    "lineNumber": 1,
+                    "columnNumber": 6441
+                  },
+                  {
+                    "functionName": "o",
+                    "scriptId": "22",
+                    "url": "https://b2bmedplatform-hmnupqbbx-kushagras-projects-82da7c81.vercel.app/_next/static/chunks/585df5d56a3555ef.js",
+                    "lineNumber": 0,
+                    "columnNumber": 26949
+                  },
+                  {
+                    "functionName": "i",
+                    "scriptId": "22",
+                    "url": "https://b2bmedplatform-hmnupqbbx-kushagras-projects-82da7c81.vercel.app/_next/static/chunks/585df5d56a3555ef.js",
+                    "lineNumber": 0,
+                    "columnNumber": 26886
+                  },
+                  {
+                    "functionName": "m",
+                    "scriptId": "22",
+                    "url": "https://b2bmedplatform-hmnupqbbx-kushagras-projects-82da7c81.vercel.app/_next/static/chunks/585df5d56a3555ef.js",
+                    "lineNumber": 1,
+                    "columnNumber": 7111
+                  },
+                  {
+                    "functionName": "",
+                    "scriptId": "22",
+                    "url": "https://b2bmedplatform-hmnupqbbx-kushagras-projects-82da7c81.vercel.app/_next/static/chunks/585df5d56a3555ef.js",
+                    "lineNumber": 1,
+                    "columnNumber": 8055
+                  },
+                  {
+                    "functionName": "U",
+                    "scriptId": "19",
+                    "url": "https://b2bmedplatform-hmnupqbbx-kushagras-projects-82da7c81.vercel.app/_next/static/chunks/52e6bdfb7669c9ec.js",
+                    "lineNumber": 0,
+                    "columnNumber": 24430
+                  },
+                  {
+                    "functionName": "push",
+                    "scriptId": "22",
+                    "url": "https://b2bmedplatform-hmnupqbbx-kushagras-projects-82da7c81.vercel.app/_next/static/chunks/585df5d56a3555ef.js",
+                    "lineNumber": 1,
+                    "columnNumber": 8049
+                  },
+                  {
+                    "functionName": "m",
+                    "scriptId": "27",
+                    "url": "https://b2bmedplatform-hmnupqbbx-kushagras-projects-82da7c81.vercel.app/_next/static/chunks/8c277c3b87ec3870.js",
+                    "lineNumber": 0,
+                    "columnNumber": 9559
+                  }
+                ],
+                "parent": {
+                  "description": "await",
+                  "callFrames": [
+                    {
+                      "functionName": "sY",
+                      "scriptId": "20",
+                      "url": "https://b2bmedplatform-hmnupqbbx-kushagras-projects-82da7c81.vercel.app/_next/static/chunks/edf728ade32a04ce.js",
+                      "lineNumber": 0,
+                      "columnNumber": 161797
+                    },
+                    {
+                      "functionName": "",
+                      "scriptId": "20",
+                      "url": "https://b2bmedplatform-hmnupqbbx-kushagras-projects-82da7c81.vercel.app/_next/static/chunks/edf728ade32a04ce.js",
+                      "lineNumber": 0,
+                      "columnNumber": 167685
+                    },
+                    {
+                      "functionName": "tD",
+                      "scriptId": "20",
+                      "url": "https://b2bmedplatform-hmnupqbbx-kushagras-projects-82da7c81.vercel.app/_next/static/chunks/edf728ade32a04ce.js",
+                      "lineNumber": 0,
+                      "columnNumber": 30292
+                    },
+                    {
+                      "functionName": "s3",
+                      "scriptId": "20",
+                      "url": "https://b2bmedplatform-hmnupqbbx-kushagras-projects-82da7c81.vercel.app/_next/static/chunks/edf728ade32a04ce.js",
+                      "lineNumber": 0,
+                      "columnNumber": 163030
+                    },
+                    {
+                      "functionName": "fC",
+                      "scriptId": "20",
+                      "url": "https://b2bmedplatform-hmnupqbbx-kushagras-projects-82da7c81.vercel.app/_next/static/chunks/edf728ade32a04ce.js",
+                      "lineNumber": 0,
+                      "columnNumber": 198996
+                    },
+                    {
+                      "functionName": "fP",
+                      "scriptId": "20",
+                      "url": "https://b2bmedplatform-hmnupqbbx-kushagras-projects-82da7c81.vercel.app/_next/static/chunks/edf728ade32a04ce.js",
+                      "lineNumber": 0,
+                      "columnNumber": 198818
+                    }
+                  ]
+                }
+              }
+            }
+          }
+        },
+        "_priority": "High",
+        "_resourceType": "fetch",
+        "cache": {},
+        "connection": "443",
+        "request": {
+          "method": "GET",
+          "url": "https://b2bmedplatform-hmnupqbbx-kushagras-projects-82da7c81.vercel.app/login?callbackUrl=%2Fadmin%2Fdashboard&_rsc=1hoe2",
+          "httpVersion": "http/2.0",
+          "headers": [
+            {
+              "name": ":authority",
+              "value": "b2bmedplatform-hmnupqbbx-kushagras-projects-82da7c81.vercel.app"
+            },
+            {
+              "name": ":method",
+              "value": "GET"
+            },
+            {
+              "name": ":path",
+              "value": "/login?callbackUrl=%2Fadmin%2Fdashboard&_rsc=1hoe2"
+            },
+            {
+              "name": ":scheme",
+              "value": "https"
+            },
+            {
+              "name": "accept",
+              "value": "*/*"
+            },
+            {
+              "name": "accept-encoding",
+              "value": "gzip, deflate, br, zstd"
+            },
+            {
+              "name": "accept-language",
+              "value": "en-GB,en-US;q=0.9,en;q=0.8,hi;q=0.7,bho;q=0.6,te;q=0.5"
+            },
+            {
+              "name": "if-none-match",
+              "value": "W/\"e2f65e10c5a2e890d759d0952c2af0af\""
+            },
+            {
+              "name": "next-router-state-tree",
+              "value": "%5B%22%22%2C%7B%22children%22%3A%5B%22login%22%2C%7B%22children%22%3A%5B%22__PAGE__%22%2C%7B%7D%2Cnull%2Cnull%5D%7D%2Cnull%2Cnull%5D%7D%2Cnull%2C%22refetch%22%2Ctrue%5D"
+            },
+            {
+              "name": "priority",
+              "value": "u=1, i"
+            },
+            {
+              "name": "referer",
+              "value": "https://b2bmedplatform-hmnupqbbx-kushagras-projects-82da7c81.vercel.app/login?callbackUrl=%2Fadmin%2Fdashboard"
+            },
+            {
+              "name": "rsc",
+              "value": "1"
+            },
+            {
+              "name": "sec-ch-ua",
+              "value": "\"Not(A:Brand\";v=\"8\", \"Chromium\";v=\"144\", \"Google Chrome\";v=\"144\""
+            },
+            {
+              "name": "sec-ch-ua-mobile",
+              "value": "?0"
+            },
+            {
+              "name": "sec-ch-ua-platform",
+              "value": "\"macOS\""
+            },
+            {
+              "name": "sec-fetch-dest",
+              "value": "empty"
+            },
+            {
+              "name": "sec-fetch-mode",
+              "value": "cors"
+            },
+            {
+              "name": "sec-fetch-site",
+              "value": "same-origin"
+            },
+            {
+              "name": "user-agent",
+              "value": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36"
+            }
+          ],
+          "queryString": [
+            {
+              "name": "callbackUrl",
+              "value": "%2Fadmin%2Fdashboard"
+            },
+            {
+              "name": "_rsc",
+              "value": "1hoe2"
+            }
+          ],
+          "cookies": [],
+          "headersSize": -1,
+          "bodySize": 0
+        },
+        "response": {
+          "status": 304,
+          "statusText": "",
+          "httpVersion": "http/2.0",
+          "headers": [
+            {
+              "name": "cache-control",
+              "value": "public, max-age=0, must-revalidate"
+            },
+            {
+              "name": "date",
+              "value": "Sat, 31 Jan 2026 09:20:21 GMT"
+            },
+            {
+              "name": "server",
+              "value": "Vercel"
+            },
+            {
+              "name": "vary",
+              "value": "rsc, next-router-state-tree, next-router-prefetch, next-router-segment-prefetch"
+            },
+            {
+              "name": "x-vercel-cache",
+              "value": "HIT"
+            },
+            {
+              "name": "x-vercel-id",
+              "value": "bom1::xmck9-1769851221816-15d7d8337950"
+            }
+          ],
+          "cookies": [],
+          "content": {
+            "size": 4940,
+            "mimeType": "text/x-component",
+            "text": "1:\"$Sreact.fragment\"\n2:I[44636,[\"/_next/static/chunks/15e2eefaace67d07.js\"],\"Providers\"]\n3:I[39756,[\"/_next/static/chunks/ff1a16fafef87110.js\",\"/_next/static/chunks/4d348ff2302e5aac.js\"],\"default\"]\n4:I[37457,[\"/_next/static/chunks/ff1a16fafef87110.js\",\"/_next/static/chunks/4d348ff2302e5aac.js\"],\"default\"]\n5:I[47257,[\"/_next/static/chunks/ff1a16fafef87110.js\",\"/_next/static/chunks/4d348ff2302e5aac.js\"],\"ClientPageRoot\"]\n6:I[94542,[\"/_next/static/chunks/15e2eefaace67d07.js\",\"/_next/static/chunks/8c277c3b87ec3870.js\"],\"default\"]\n9:I[97367,[\"/_next/static/chunks/ff1a16fafef87110.js\",\"/_next/static/chunks/4d348ff2302e5aac.js\"],\"OutletBoundary\"]\na:\"$Sreact.suspense\"\nc:I[97367,[\"/_next/static/chunks/ff1a16fafef87110.js\",\"/_next/static/chunks/4d348ff2302e5aac.js\"],\"ViewportBoundary\"]\ne:I[97367,[\"/_next/static/chunks/ff1a16fafef87110.js\",\"/_next/static/chunks/4d348ff2302e5aac.js\"],\"MetadataBoundary\"]\n10:I[68027,[],\"default\"]\n:HL[\"/_next/static/chunks/0b2436d9ae588987.css\",\"style\"]\n:HL[\"/_next/static/media/797e433ab948586e-s.p.dbea232f.woff2\",\"font\",{\"crossOrigin\":\"\",\"type\":\"font/woff2\"}]\n:HL[\"/_next/static/media/caa3a2e1cccd8315-s.p.853070df.woff2\",\"font\",{\"crossOrigin\":\"\",\"type\":\"font/woff2\"}]\n0:{\"P\":null,\"b\":\"b-bQnOPV0wVJkqJQgy70z\",\"c\":[\"\",\"login\"],\"q\":\"\",\"i\":false,\"f\":[[[\"\",{\"children\":[\"login\",{\"children\":[\"__PAGE__\",{}]}]},\"$undefined\",\"$undefined\",true],[[\"$\",\"$1\",\"c\",{\"children\":[[[\"$\",\"link\",\"0\",{\"rel\":\"stylesheet\",\"href\":\"/_next/static/chunks/0b2436d9ae588987.css\",\"precedence\":\"next\",\"crossOrigin\":\"$undefined\",\"nonce\":\"$undefined\"}],[\"$\",\"script\",\"script-0\",{\"src\":\"/_next/static/chunks/15e2eefaace67d07.js\",\"async\":true,\"nonce\":\"$undefined\"}]],[\"$\",\"html\",null,{\"lang\":\"en\",\"children\":[\"$\",\"body\",null,{\"className\":\"geist_a71539c9-module__T19VSG__variable geist_mono_8d43a2aa-module__8Li5zG__variable antialiased\",\"children\":[\"$\",\"$L2\",null,{\"children\":[\"$\",\"$L3\",null,{\"parallelRouterKey\":\"children\",\"error\":\"$undefined\",\"errorStyles\":\"$undefined\",\"errorScripts\":\"$undefined\",\"template\":[\"$\",\"$L4\",null,{}],\"templateStyles\":\"$undefined\",\"templateScripts\":\"$undefined\",\"notFound\":[[[\"$\",\"title\",null,{\"children\":\"404: This page could not be found.\"}],[\"$\",\"div\",null,{\"style\":{\"fontFamily\":\"system-ui,\\\"Segoe UI\\\",Roboto,Helvetica,Arial,sans-serif,\\\"Apple Color Emoji\\\",\\\"Segoe UI Emoji\\\"\",\"height\":\"100vh\",\"textAlign\":\"center\",\"display\":\"flex\",\"flexDirection\":\"column\",\"alignItems\":\"center\",\"justifyContent\":\"center\"},\"children\":[\"$\",\"div\",null,{\"children\":[[\"$\",\"style\",null,{\"dangerouslySetInnerHTML\":{\"__html\":\"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}\"}}],[\"$\",\"h1\",null,{\"className\":\"next-error-h1\",\"style\":{\"display\":\"inline-block\",\"margin\":\"0 20px 0 0\",\"padding\":\"0 23px 0 0\",\"fontSize\":24,\"fontWeight\":500,\"verticalAlign\":\"top\",\"lineHeight\":\"49px\"},\"children\":404}],[\"$\",\"div\",null,{\"style\":{\"display\":\"inline-block\"},\"children\":[\"$\",\"h2\",null,{\"style\":{\"fontSize\":14,\"fontWeight\":400,\"lineHeight\":\"49px\",\"margin\":0},\"children\":\"This page could not be found.\"}]}]]}]}]],[]],\"forbidden\":\"$undefined\",\"unauthorized\":\"$undefined\"}]}]}]}]]}],{\"children\":[[\"$\",\"$1\",\"c\",{\"children\":[null,[\"$\",\"$L3\",null,{\"parallelRouterKey\":\"children\",\"error\":\"$undefined\",\"errorStyles\":\"$undefined\",\"errorScripts\":\"$undefined\",\"template\":[\"$\",\"$L4\",null,{}],\"templateStyles\":\"$undefined\",\"templateScripts\":\"$undefined\",\"notFound\":\"$undefined\",\"forbidden\":\"$undefined\",\"unauthorized\":\"$undefined\"}]]}],{\"children\":[[\"$\",\"$1\",\"c\",{\"children\":[[\"$\",\"$L5\",null,{\"Component\":\"$6\",\"serverProvidedParams\":{\"searchParams\":{},\"params\":{},\"promises\":[\"$@7\",\"$@8\"]}}],[[\"$\",\"script\",\"script-0\",{\"src\":\"/_next/static/chunks/8c277c3b87ec3870.js\",\"async\":true,\"nonce\":\"$undefined\"}]],[\"$\",\"$L9\",null,{\"children\":[\"$\",\"$a\",null,{\"name\":\"Next.MetadataOutlet\",\"children\":\"$@b\"}]}]]}],{},null,false,false]},null,false,false]},null,false,false],[\"$\",\"$1\",\"h\",{\"children\":[null,[\"$\",\"$Lc\",null,{\"children\":\"$Ld\"}],[\"$\",\"div\",null,{\"hidden\":true,\"children\":[\"$\",\"$Le\",null,{\"children\":[\"$\",\"$a\",null,{\"name\":\"Next.Metadata\",\"children\":\"$Lf\"}]}]}],[\"$\",\"meta\",null,{\"name\":\"next-size-adjust\",\"content\":\"\"}]]}],false]],\"m\":\"$undefined\",\"G\":[\"$10\",[]],\"S\":true}\n7:{}\n8:\"$0:f:0:1:1:children:1:children:0:props:children:0:props:serverProvidedParams:params\"\nd:[[\"$\",\"meta\",\"0\",{\"charSet\":\"utf-8\"}],[\"$\",\"meta\",\"1\",{\"name\":\"viewport\",\"content\":\"width=device-width, initial-scale=1\"}]]\n11:I[27201,[\"/_next/static/chunks/ff1a16fafef87110.js\",\"/_next/static/chunks/4d348ff2302e5aac.js\"],\"IconMark\"]\nb:null\nf:[[\"$\",\"title\",\"0\",{\"children\":\"Create Next App\"}],[\"$\",\"meta\",\"1\",{\"name\":\"description\",\"content\":\"Generated by create next app\"}],[\"$\",\"link\",\"2\",{\"rel\":\"icon\",\"href\":\"/favicon.ico?favicon.0b3bf435.ico\",\"sizes\":\"256x256\",\"type\":\"image/x-icon\"}],[\"$\",\"$L11\",\"3\",{}]]\n"
+          },
+          "redirectURL": "",
+          "headersSize": -1,
+          "bodySize": 0,
+          "_transferSize": 45,
+          "_error": null,
+          "_fetchedViaServiceWorker": false
+        },
+        "serverIPAddress": "216.198.79.3",
+        "startedDateTime": "2026-01-31T09:20:21.774Z",
+        "time": 62.895000097341835,
+        "timings": {
+          "blocked": 1.3160000623315573,
+          "dns": -1,
+          "ssl": -1,
+          "connect": -1,
+          "send": 0.278,
+          "wait": 60.60799999685585,
+          "receive": 0.6930000381544232,
+          "_blocked_queueing": 0.5280000623315573,
+          "_workerStart": -1,
+          "_workerReady": -1,
+          "_workerFetchStart": -1,
+          "_workerRespondWithSettled": -1
+        }
+      },
+      {
+        "_connectionId": "102738",
+        "_initiator": {
+          "type": "script",
+          "stack": {
+            "callFrames": [
+              {
+                "functionName": "window.fetch",
+                "scriptId": "30",
+                "url": "chrome-extension://iohjgamcilhbgmhbnllfolmkmmekfmci/injected-scripts/host-network-events.js",
+                "lineNumber": 0,
+                "columnNumber": 168642
+              }
+            ],
+            "parent": {
+              "description": "await",
+              "callFrames": [
+                {
+                  "functionName": "R",
+                  "scriptId": "22",
+                  "url": "https://b2bmedplatform-hmnupqbbx-kushagras-projects-82da7c81.vercel.app/_next/static/chunks/585df5d56a3555ef.js",
+                  "lineNumber": 0,
+                  "columnNumber": 43143
+                },
+                {
+                  "functionName": "er",
+                  "scriptId": "22",
+                  "url": "https://b2bmedplatform-hmnupqbbx-kushagras-projects-82da7c81.vercel.app/_next/static/chunks/585df5d56a3555ef.js",
+                  "lineNumber": 0,
+                  "columnNumber": 87218
+                },
+                {
+                  "functionName": "Y",
+                  "scriptId": "22",
+                  "url": "https://b2bmedplatform-hmnupqbbx-kushagras-projects-82da7c81.vercel.app/_next/static/chunks/585df5d56a3555ef.js",
+                  "lineNumber": 0,
+                  "columnNumber": 80852
+                },
+                {
+                  "functionName": "",
+                  "scriptId": "22",
+                  "url": "https://b2bmedplatform-hmnupqbbx-kushagras-projects-82da7c81.vercel.app/_next/static/chunks/585df5d56a3555ef.js",
+                  "lineNumber": 0,
+                  "columnNumber": 61188
+                },
+                {
+                  "functionName": "",
+                  "scriptId": "22",
+                  "url": "https://b2bmedplatform-hmnupqbbx-kushagras-projects-82da7c81.vercel.app/_next/static/chunks/585df5d56a3555ef.js",
+                  "lineNumber": 0,
+                  "columnNumber": 64318
+                },
+                {
+                  "functionName": "A",
+                  "scriptId": "22",
+                  "url": "https://b2bmedplatform-hmnupqbbx-kushagras-projects-82da7c81.vercel.app/_next/static/chunks/585df5d56a3555ef.js",
+                  "lineNumber": 0,
+                  "columnNumber": 64691
+                }
+              ],
+              "parent": {
+                "description": "setTimeout",
+                "callFrames": [
+                  {
+                    "functionName": "b",
+                    "scriptId": "22",
+                    "url": "https://b2bmedplatform-hmnupqbbx-kushagras-projects-82da7c81.vercel.app/_next/static/chunks/585df5d56a3555ef.js",
+                    "lineNumber": 0,
+                    "columnNumber": 59689
+                  },
+                  {
+                    "functionName": "C",
+                    "scriptId": "22",
+                    "url": "https://b2bmedplatform-hmnupqbbx-kushagras-projects-82da7c81.vercel.app/_next/static/chunks/585df5d56a3555ef.js",
+                    "lineNumber": 0,
+                    "columnNumber": 76728
+                  },
+                  {
+                    "functionName": "c",
+                    "scriptId": "22",
+                    "url": "https://b2bmedplatform-hmnupqbbx-kushagras-projects-82da7c81.vercel.app/_next/static/chunks/585df5d56a3555ef.js",
+                    "lineNumber": 0,
+                    "columnNumber": 95403
+                  },
+                  {
+                    "functionName": "",
+                    "scriptId": "22",
+                    "url": "https://b2bmedplatform-hmnupqbbx-kushagras-projects-82da7c81.vercel.app/_next/static/chunks/585df5d56a3555ef.js",
+                    "lineNumber": 1,
+                    "columnNumber": 3798
+                  },
+                  {
+                    "functionName": "action",
+                    "scriptId": "22",
+                    "url": "https://b2bmedplatform-hmnupqbbx-kushagras-projects-82da7c81.vercel.app/_next/static/chunks/585df5d56a3555ef.js",
+                    "lineNumber": 1,
+                    "columnNumber": 6481
+                  },
+                  {
+                    "functionName": "g",
+                    "scriptId": "22",
+                    "url": "https://b2bmedplatform-hmnupqbbx-kushagras-projects-82da7c81.vercel.app/_next/static/chunks/585df5d56a3555ef.js",
+                    "lineNumber": 1,
+                    "columnNumber": 5676
+                  },
+                  {
+                    "functionName": "y",
+                    "scriptId": "22",
+                    "url": "https://b2bmedplatform-hmnupqbbx-kushagras-projects-82da7c81.vercel.app/_next/static/chunks/585df5d56a3555ef.js",
+                    "lineNumber": 1,
+                    "columnNumber": 5454
+                  },
+                  {
+                    "functionName": "o",
+                    "scriptId": "22",
+                    "url": "https://b2bmedplatform-hmnupqbbx-kushagras-projects-82da7c81.vercel.app/_next/static/chunks/585df5d56a3555ef.js",
+                    "lineNumber": 1,
+                    "columnNumber": 5828
+                  }
+                ],
+                "parent": {
+                  "description": "Promise.then",
+                  "callFrames": [
+                    {
+                      "functionName": "g",
+                      "scriptId": "22",
+                      "url": "https://b2bmedplatform-hmnupqbbx-kushagras-projects-82da7c81.vercel.app/_next/static/chunks/585df5d56a3555ef.js",
+                      "lineNumber": 1,
+                      "columnNumber": 5870
+                    },
+                    {
+                      "functionName": "",
+                      "scriptId": "22",
+                      "url": "https://b2bmedplatform-hmnupqbbx-kushagras-projects-82da7c81.vercel.app/_next/static/chunks/585df5d56a3555ef.js",
+                      "lineNumber": 1,
+                      "columnNumber": 6218
+                    },
+                    {
+                      "functionName": "dispatch",
+                      "scriptId": "22",
+                      "url": "https://b2bmedplatform-hmnupqbbx-kushagras-projects-82da7c81.vercel.app/_next/static/chunks/585df5d56a3555ef.js",
+                      "lineNumber": 1,
+                      "columnNumber": 6441
+                    },
+                    {
+                      "functionName": "o",
+                      "scriptId": "22",
+                      "url": "https://b2bmedplatform-hmnupqbbx-kushagras-projects-82da7c81.vercel.app/_next/static/chunks/585df5d56a3555ef.js",
+                      "lineNumber": 0,
+                      "columnNumber": 26949
+                    },
+                    {
+                      "functionName": "i",
+                      "scriptId": "22",
+                      "url": "https://b2bmedplatform-hmnupqbbx-kushagras-projects-82da7c81.vercel.app/_next/static/chunks/585df5d56a3555ef.js",
+                      "lineNumber": 0,
+                      "columnNumber": 26886
+                    },
+                    {
+                      "functionName": "m",
+                      "scriptId": "22",
+                      "url": "https://b2bmedplatform-hmnupqbbx-kushagras-projects-82da7c81.vercel.app/_next/static/chunks/585df5d56a3555ef.js",
+                      "lineNumber": 1,
+                      "columnNumber": 7111
+                    },
+                    {
+                      "functionName": "",
+                      "scriptId": "22",
+                      "url": "https://b2bmedplatform-hmnupqbbx-kushagras-projects-82da7c81.vercel.app/_next/static/chunks/585df5d56a3555ef.js",
+                      "lineNumber": 1,
+                      "columnNumber": 8055
+                    },
+                    {
+                      "functionName": "U",
+                      "scriptId": "19",
+                      "url": "https://b2bmedplatform-hmnupqbbx-kushagras-projects-82da7c81.vercel.app/_next/static/chunks/52e6bdfb7669c9ec.js",
+                      "lineNumber": 0,
+                      "columnNumber": 24430
+                    },
+                    {
+                      "functionName": "push",
+                      "scriptId": "22",
+                      "url": "https://b2bmedplatform-hmnupqbbx-kushagras-projects-82da7c81.vercel.app/_next/static/chunks/585df5d56a3555ef.js",
+                      "lineNumber": 1,
+                      "columnNumber": 8049
+                    },
+                    {
+                      "functionName": "m",
+                      "scriptId": "27",
+                      "url": "https://b2bmedplatform-hmnupqbbx-kushagras-projects-82da7c81.vercel.app/_next/static/chunks/8c277c3b87ec3870.js",
+                      "lineNumber": 0,
+                      "columnNumber": 9559
+                    }
+                  ],
+                  "parent": {
+                    "description": "await",
+                    "callFrames": [
+                      {
+                        "functionName": "sY",
+                        "scriptId": "20",
+                        "url": "https://b2bmedplatform-hmnupqbbx-kushagras-projects-82da7c81.vercel.app/_next/static/chunks/edf728ade32a04ce.js",
+                        "lineNumber": 0,
+                        "columnNumber": 161797
+                      },
+                      {
+                        "functionName": "",
+                        "scriptId": "20",
+                        "url": "https://b2bmedplatform-hmnupqbbx-kushagras-projects-82da7c81.vercel.app/_next/static/chunks/edf728ade32a04ce.js",
+                        "lineNumber": 0,
+                        "columnNumber": 167685
+                      },
+                      {
+                        "functionName": "tD",
+                        "scriptId": "20",
+                        "url": "https://b2bmedplatform-hmnupqbbx-kushagras-projects-82da7c81.vercel.app/_next/static/chunks/edf728ade32a04ce.js",
+                        "lineNumber": 0,
+                        "columnNumber": 30292
+                      },
+                      {
+                        "functionName": "s3",
+                        "scriptId": "20",
+                        "url": "https://b2bmedplatform-hmnupqbbx-kushagras-projects-82da7c81.vercel.app/_next/static/chunks/edf728ade32a04ce.js",
+                        "lineNumber": 0,
+                        "columnNumber": 163030
+                      },
+                      {
+                        "functionName": "fC",
+                        "scriptId": "20",
+                        "url": "https://b2bmedplatform-hmnupqbbx-kushagras-projects-82da7c81.vercel.app/_next/static/chunks/edf728ade32a04ce.js",
+                        "lineNumber": 0,
+                        "columnNumber": 198996
+                      },
+                      {
+                        "functionName": "fP",
+                        "scriptId": "20",
+                        "url": "https://b2bmedplatform-hmnupqbbx-kushagras-projects-82da7c81.vercel.app/_next/static/chunks/edf728ade32a04ce.js",
+                        "lineNumber": 0,
+                        "columnNumber": 198818
+                      }
+                    ]
+                  }
+                }
+              }
+            }
+          }
+        },
+        "_priority": "Low",
+        "_resourceType": "fetch",
+        "cache": {},
+        "connection": "443",
+        "request": {
+          "method": "GET",
+          "url": "https://b2bmedplatform-hmnupqbbx-kushagras-projects-82da7c81.vercel.app/register?_rsc=17yrj",
+          "httpVersion": "http/2.0",
+          "headers": [
+            {
+              "name": ":authority",
+              "value": "b2bmedplatform-hmnupqbbx-kushagras-projects-82da7c81.vercel.app"
+            },
+            {
+              "name": ":method",
+              "value": "GET"
+            },
+            {
+              "name": ":path",
+              "value": "/register?_rsc=17yrj"
+            },
+            {
+              "name": ":scheme",
+              "value": "https"
+            },
+            {
+              "name": "accept",
+              "value": "*/*"
+            },
+            {
+              "name": "accept-encoding",
+              "value": "gzip, deflate, br, zstd"
+            },
+            {
+              "name": "accept-language",
+              "value": "en-GB,en-US;q=0.9,en;q=0.8,hi;q=0.7,bho;q=0.6,te;q=0.5"
+            },
+            {
+              "name": "if-none-match",
+              "value": "\"d75a5270d9f4d6d76008210ed6525aeb\""
+            },
+            {
+              "name": "next-router-prefetch",
+              "value": "1"
+            },
+            {
+              "name": "next-router-segment-prefetch",
+              "value": "/_tree"
+            },
+            {
+              "name": "next-url",
+              "value": "/login"
+            },
+            {
+              "name": "priority",
+              "value": "i"
+            },
+            {
+              "name": "referer",
+              "value": "https://b2bmedplatform-hmnupqbbx-kushagras-projects-82da7c81.vercel.app/login?callbackUrl=%2Fadmin%2Fdashboard"
+            },
+            {
+              "name": "rsc",
+              "value": "1"
+            },
+            {
+              "name": "sec-ch-ua",
+              "value": "\"Not(A:Brand\";v=\"8\", \"Chromium\";v=\"144\", \"Google Chrome\";v=\"144\""
+            },
+            {
+              "name": "sec-ch-ua-mobile",
+              "value": "?0"
+            },
+            {
+              "name": "sec-ch-ua-platform",
+              "value": "\"macOS\""
+            },
+            {
+              "name": "sec-fetch-dest",
+              "value": "empty"
+            },
+            {
+              "name": "sec-fetch-mode",
+              "value": "cors"
+            },
+            {
+              "name": "sec-fetch-site",
+              "value": "same-origin"
+            },
+            {
+              "name": "user-agent",
+              "value": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36"
+            }
+          ],
+          "queryString": [
+            {
+              "name": "_rsc",
+              "value": "17yrj"
+            }
+          ],
+          "cookies": [],
+          "headersSize": -1,
+          "bodySize": 0
+        },
+        "response": {
+          "status": 304,
+          "statusText": "",
+          "httpVersion": "http/2.0",
+          "headers": [
+            {
+              "name": "cache-control",
+              "value": "public, max-age=0, must-revalidate"
+            },
+            {
+              "name": "date",
+              "value": "Sat, 31 Jan 2026 09:20:22 GMT"
+            },
+            {
+              "name": "server",
+              "value": "Vercel"
+            },
+            {
+              "name": "x-vercel-cache",
+              "value": "HIT"
+            },
+            {
+              "name": "x-vercel-id",
+              "value": "bom1::vshvt-1769851222122-b31a5858ed7d"
+            }
+          ],
+          "cookies": [],
+          "content": {
+            "size": 695,
+            "mimeType": "text/x-component",
+            "text": ":HL[\"/_next/static/chunks/0b2436d9ae588987.css\",\"style\"]\n:HL[\"/_next/static/media/797e433ab948586e-s.p.dbea232f.woff2\",\"font\",{\"crossOrigin\":\"\",\"type\":\"font/woff2\"}]\n:HL[\"/_next/static/media/caa3a2e1cccd8315-s.p.853070df.woff2\",\"font\",{\"crossOrigin\":\"\",\"type\":\"font/woff2\"}]\n0:{\"buildId\":\"b-bQnOPV0wVJkqJQgy70z\",\"tree\":{\"name\":\"\",\"paramType\":null,\"paramKey\":\"\",\"hasRuntimePrefetch\":false,\"slots\":{\"children\":{\"name\":\"register\",\"paramType\":null,\"paramKey\":\"register\",\"hasRuntimePrefetch\":false,\"slots\":{\"children\":{\"name\":\"__PAGE__\",\"paramType\":null,\"paramKey\":\"__PAGE__\",\"hasRuntimePrefetch\":false,\"slots\":null,\"isRootLayout\":false}},\"isRootLayout\":false}},\"isRootLayout\":true},\"staleTime\":300}\n"
+          },
+          "redirectURL": "",
+          "headersSize": -1,
+          "bodySize": 0,
+          "_transferSize": 68,
+          "_error": null,
+          "_fetchedViaServiceWorker": false
+        },
+        "serverIPAddress": "216.198.79.3",
+        "startedDateTime": "2026-01-31T09:20:22.076Z",
+        "time": 72.58799998089671,
+        "timings": {
+          "blocked": 3.0780000395700338,
+          "dns": -1,
+          "ssl": -1,
+          "connect": -1,
+          "send": 1.1409999999999998,
+          "wait": 67.44900003732741,
+          "receive": 0.919999903999269,
+          "_blocked_queueing": 1.2130000395700336,
+          "_workerStart": -1,
+          "_workerReady": -1,
+          "_workerFetchStart": -1,
+          "_workerRespondWithSettled": -1
+        }
+      },
+      {
+        "_connectionId": "102738",
+        "_initiator": {
+          "type": "script",
+          "stack": {
+            "callFrames": [
+              {
+                "functionName": "window.fetch",
+                "scriptId": "30",
+                "url": "chrome-extension://iohjgamcilhbgmhbnllfolmkmmekfmci/injected-scripts/host-network-events.js",
+                "lineNumber": 0,
+                "columnNumber": 168642
+              }
+            ],
+            "parent": {
+              "description": "await",
+              "callFrames": [
+                {
+                  "functionName": "R",
+                  "scriptId": "22",
+                  "url": "https://b2bmedplatform-hmnupqbbx-kushagras-projects-82da7c81.vercel.app/_next/static/chunks/585df5d56a3555ef.js",
+                  "lineNumber": 0,
+                  "columnNumber": 43143
+                },
+                {
+                  "functionName": "er",
+                  "scriptId": "22",
+                  "url": "https://b2bmedplatform-hmnupqbbx-kushagras-projects-82da7c81.vercel.app/_next/static/chunks/585df5d56a3555ef.js",
+                  "lineNumber": 0,
+                  "columnNumber": 87218
+                },
+                {
+                  "functionName": "Q",
+                  "scriptId": "22",
+                  "url": "https://b2bmedplatform-hmnupqbbx-kushagras-projects-82da7c81.vercel.app/_next/static/chunks/585df5d56a3555ef.js",
+                  "lineNumber": 0,
+                  "columnNumber": 84597
+                },
+                {
+                  "functionName": "U",
+                  "scriptId": "22",
+                  "url": "https://b2bmedplatform-hmnupqbbx-kushagras-projects-82da7c81.vercel.app/_next/static/chunks/585df5d56a3555ef.js",
+                  "lineNumber": 0,
+                  "columnNumber": 65870
+                },
+                {
+                  "functionName": "",
+                  "scriptId": "22",
+                  "url": "https://b2bmedplatform-hmnupqbbx-kushagras-projects-82da7c81.vercel.app/_next/static/chunks/585df5d56a3555ef.js",
+                  "lineNumber": 0,
+                  "columnNumber": 61643
+                },
+                {
+                  "functionName": "",
+                  "scriptId": "22",
+                  "url": "https://b2bmedplatform-hmnupqbbx-kushagras-projects-82da7c81.vercel.app/_next/static/chunks/585df5d56a3555ef.js",
+                  "lineNumber": 0,
+                  "columnNumber": 64318
+                },
+                {
+                  "functionName": "A",
+                  "scriptId": "22",
+                  "url": "https://b2bmedplatform-hmnupqbbx-kushagras-projects-82da7c81.vercel.app/_next/static/chunks/585df5d56a3555ef.js",
+                  "lineNumber": 0,
+                  "columnNumber": 64691
+                }
+              ]
+            }
+          }
+        },
+        "_priority": "Low",
+        "_resourceType": "fetch",
+        "cache": {},
+        "connection": "443",
+        "request": {
+          "method": "GET",
+          "url": "https://b2bmedplatform-hmnupqbbx-kushagras-projects-82da7c81.vercel.app/register?_rsc=m8m8p",
+          "httpVersion": "http/2.0",
+          "headers": [
+            {
+              "name": ":authority",
+              "value": "b2bmedplatform-hmnupqbbx-kushagras-projects-82da7c81.vercel.app"
+            },
+            {
+              "name": ":method",
+              "value": "GET"
+            },
+            {
+              "name": ":path",
+              "value": "/register?_rsc=m8m8p"
+            },
+            {
+              "name": ":scheme",
+              "value": "https"
+            },
+            {
+              "name": "accept",
+              "value": "*/*"
+            },
+            {
+              "name": "accept-encoding",
+              "value": "gzip, deflate, br, zstd"
+            },
+            {
+              "name": "accept-language",
+              "value": "en-GB,en-US;q=0.9,en;q=0.8,hi;q=0.7,bho;q=0.6,te;q=0.5"
+            },
+            {
+              "name": "if-none-match",
+              "value": "W/\"bf33efea5355fab1346d079f4f79c871\""
+            },
+            {
+              "name": "next-router-prefetch",
+              "value": "1"
+            },
+            {
+              "name": "next-router-segment-prefetch",
+              "value": "/_head"
+            },
+            {
+              "name": "next-url",
+              "value": "/login"
+            },
+            {
+              "name": "priority",
+              "value": "i"
+            },
+            {
+              "name": "referer",
+              "value": "https://b2bmedplatform-hmnupqbbx-kushagras-projects-82da7c81.vercel.app/login?callbackUrl=%2Fadmin%2Fdashboard"
+            },
+            {
+              "name": "rsc",
+              "value": "1"
+            },
+            {
+              "name": "sec-ch-ua",
+              "value": "\"Not(A:Brand\";v=\"8\", \"Chromium\";v=\"144\", \"Google Chrome\";v=\"144\""
+            },
+            {
+              "name": "sec-ch-ua-mobile",
+              "value": "?0"
+            },
+            {
+              "name": "sec-ch-ua-platform",
+              "value": "\"macOS\""
+            },
+            {
+              "name": "sec-fetch-dest",
+              "value": "empty"
+            },
+            {
+              "name": "sec-fetch-mode",
+              "value": "cors"
+            },
+            {
+              "name": "sec-fetch-site",
+              "value": "same-origin"
+            },
+            {
+              "name": "user-agent",
+              "value": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36"
+            }
+          ],
+          "queryString": [
+            {
+              "name": "_rsc",
+              "value": "m8m8p"
+            }
+          ],
+          "cookies": [],
+          "headersSize": -1,
+          "bodySize": 0
+        },
+        "response": {
+          "status": 304,
+          "statusText": "",
+          "httpVersion": "http/2.0",
+          "headers": [
+            {
+              "name": "cache-control",
+              "value": "public, max-age=0, must-revalidate"
+            },
+            {
+              "name": "date",
+              "value": "Sat, 31 Jan 2026 09:20:22 GMT"
+            },
+            {
+              "name": "server",
+              "value": "Vercel"
+            },
+            {
+              "name": "x-vercel-cache",
+              "value": "HIT"
+            },
+            {
+              "name": "x-vercel-id",
+              "value": "bom1::vjz22-1769851222196-b9c73a21d0c5"
+            }
+          ],
+          "cookies": [],
+          "content": {
+            "size": 1105,
+            "mimeType": "text/x-component",
+            "text": "1:\"$Sreact.fragment\"\n2:I[97367,[\"/_next/static/chunks/ff1a16fafef87110.js\",\"/_next/static/chunks/4d348ff2302e5aac.js\"],\"ViewportBoundary\"]\n3:I[97367,[\"/_next/static/chunks/ff1a16fafef87110.js\",\"/_next/static/chunks/4d348ff2302e5aac.js\"],\"MetadataBoundary\"]\n4:\"$Sreact.suspense\"\n5:I[27201,[\"/_next/static/chunks/ff1a16fafef87110.js\",\"/_next/static/chunks/4d348ff2302e5aac.js\"],\"IconMark\"]\n0:{\"buildId\":\"b-bQnOPV0wVJkqJQgy70z\",\"rsc\":[\"$\",\"$1\",\"h\",{\"children\":[null,[\"$\",\"$L2\",null,{\"children\":[[\"$\",\"meta\",\"0\",{\"charSet\":\"utf-8\"}],[\"$\",\"meta\",\"1\",{\"name\":\"viewport\",\"content\":\"width=device-width, initial-scale=1\"}]]}],[\"$\",\"div\",null,{\"hidden\":true,\"children\":[\"$\",\"$L3\",null,{\"children\":[\"$\",\"$4\",null,{\"name\":\"Next.Metadata\",\"children\":[[\"$\",\"title\",\"0\",{\"children\":\"Create Next App\"}],[\"$\",\"meta\",\"1\",{\"name\":\"description\",\"content\":\"Generated by create next app\"}],[\"$\",\"link\",\"2\",{\"rel\":\"icon\",\"href\":\"/favicon.ico?favicon.0b3bf435.ico\",\"sizes\":\"256x256\",\"type\":\"image/x-icon\"}],[\"$\",\"$L5\",\"3\",{}]]}]}]}],[\"$\",\"meta\",null,{\"name\":\"next-size-adjust\",\"content\":\"\"}]]}],\"loading\":null,\"isPartial\":false}\n"
+          },
+          "redirectURL": "",
+          "headersSize": -1,
+          "bodySize": 0,
+          "_transferSize": 44,
+          "_error": null,
+          "_fetchedViaServiceWorker": false
+        },
+        "serverIPAddress": "216.198.79.3",
+        "startedDateTime": "2026-01-31T09:20:22.151Z",
+        "time": 81.84400002937764,
+        "timings": {
+          "blocked": 2.972000080153346,
+          "dns": -1,
+          "ssl": -1,
+          "connect": -1,
+          "send": 0.8079999999999998,
+          "wait": 77.55300001633913,
+          "receive": 0.51099993288517,
+          "_blocked_queueing": 0.9890000801533461,
+          "_workerStart": -1,
+          "_workerReady": -1,
+          "_workerFetchStart": -1,
+          "_workerRespondWithSettled": -1
+        }
+      },
+      {
+        "_connectionId": "102738",
+        "_initiator": {
+          "type": "script",
+          "stack": {
+            "callFrames": [
+              {
+                "functionName": "window.fetch",
+                "scriptId": "30",
+                "url": "chrome-extension://iohjgamcilhbgmhbnllfolmkmmekfmci/injected-scripts/host-network-events.js",
+                "lineNumber": 0,
+                "columnNumber": 168642
+              }
+            ],
+            "parent": {
+              "description": "await",
+              "callFrames": [
+                {
+                  "functionName": "R",
+                  "scriptId": "22",
+                  "url": "https://b2bmedplatform-hmnupqbbx-kushagras-projects-82da7c81.vercel.app/_next/static/chunks/585df5d56a3555ef.js",
+                  "lineNumber": 0,
+                  "columnNumber": 43143
+                },
+                {
+                  "functionName": "er",
+                  "scriptId": "22",
+                  "url": "https://b2bmedplatform-hmnupqbbx-kushagras-projects-82da7c81.vercel.app/_next/static/chunks/585df5d56a3555ef.js",
+                  "lineNumber": 0,
+                  "columnNumber": 87218
+                },
+                {
+                  "functionName": "Q",
+                  "scriptId": "22",
+                  "url": "https://b2bmedplatform-hmnupqbbx-kushagras-projects-82da7c81.vercel.app/_next/static/chunks/585df5d56a3555ef.js",
+                  "lineNumber": 0,
+                  "columnNumber": 84597
+                },
+                {
+                  "functionName": "U",
+                  "scriptId": "22",
+                  "url": "https://b2bmedplatform-hmnupqbbx-kushagras-projects-82da7c81.vercel.app/_next/static/chunks/585df5d56a3555ef.js",
+                  "lineNumber": 0,
+                  "columnNumber": 65870
+                },
+                {
+                  "functionName": "e",
+                  "scriptId": "22",
+                  "url": "https://b2bmedplatform-hmnupqbbx-kushagras-projects-82da7c81.vercel.app/_next/static/chunks/585df5d56a3555ef.js",
+                  "lineNumber": 0,
+                  "columnNumber": 61838
+                },
+                {
+                  "functionName": "",
+                  "scriptId": "22",
+                  "url": "https://b2bmedplatform-hmnupqbbx-kushagras-projects-82da7c81.vercel.app/_next/static/chunks/585df5d56a3555ef.js",
+                  "lineNumber": 0,
+                  "columnNumber": 62404
+                },
+                {
+                  "functionName": "",
+                  "scriptId": "22",
+                  "url": "https://b2bmedplatform-hmnupqbbx-kushagras-projects-82da7c81.vercel.app/_next/static/chunks/585df5d56a3555ef.js",
+                  "lineNumber": 0,
+                  "columnNumber": 64318
+                },
+                {
+                  "functionName": "A",
+                  "scriptId": "22",
+                  "url": "https://b2bmedplatform-hmnupqbbx-kushagras-projects-82da7c81.vercel.app/_next/static/chunks/585df5d56a3555ef.js",
+                  "lineNumber": 0,
+                  "columnNumber": 64691
+                }
+              ]
+            }
+          }
+        },
+        "_priority": "Low",
+        "_resourceType": "fetch",
+        "cache": {},
+        "connection": "443",
+        "request": {
+          "method": "GET",
+          "url": "https://b2bmedplatform-hmnupqbbx-kushagras-projects-82da7c81.vercel.app/register?_rsc=4c4j4",
+          "httpVersion": "http/2.0",
+          "headers": [
+            {
+              "name": ":authority",
+              "value": "b2bmedplatform-hmnupqbbx-kushagras-projects-82da7c81.vercel.app"
+            },
+            {
+              "name": ":method",
+              "value": "GET"
+            },
+            {
+              "name": ":path",
+              "value": "/register?_rsc=4c4j4"
+            },
+            {
+              "name": ":scheme",
+              "value": "https"
+            },
+            {
+              "name": "accept",
+              "value": "*/*"
+            },
+            {
+              "name": "accept-encoding",
+              "value": "gzip, deflate, br, zstd"
+            },
+            {
+              "name": "accept-language",
+              "value": "en-GB,en-US;q=0.9,en;q=0.8,hi;q=0.7,bho;q=0.6,te;q=0.5"
+            },
+            {
+              "name": "if-none-match",
+              "value": "W/\"e601351edf77db337d1aca8aaad69ac4\""
+            },
+            {
+              "name": "next-router-prefetch",
+              "value": "1"
+            },
+            {
+              "name": "next-router-segment-prefetch",
+              "value": "/_index"
+            },
+            {
+              "name": "next-url",
+              "value": "/login"
+            },
+            {
+              "name": "priority",
+              "value": "i"
+            },
+            {
+              "name": "referer",
+              "value": "https://b2bmedplatform-hmnupqbbx-kushagras-projects-82da7c81.vercel.app/login?callbackUrl=%2Fadmin%2Fdashboard"
+            },
+            {
+              "name": "rsc",
+              "value": "1"
+            },
+            {
+              "name": "sec-ch-ua",
+              "value": "\"Not(A:Brand\";v=\"8\", \"Chromium\";v=\"144\", \"Google Chrome\";v=\"144\""
+            },
+            {
+              "name": "sec-ch-ua-mobile",
+              "value": "?0"
+            },
+            {
+              "name": "sec-ch-ua-platform",
+              "value": "\"macOS\""
+            },
+            {
+              "name": "sec-fetch-dest",
+              "value": "empty"
+            },
+            {
+              "name": "sec-fetch-mode",
+              "value": "cors"
+            },
+            {
+              "name": "sec-fetch-site",
+              "value": "same-origin"
+            },
+            {
+              "name": "user-agent",
+              "value": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36"
+            }
+          ],
+          "queryString": [
+            {
+              "name": "_rsc",
+              "value": "4c4j4"
+            }
+          ],
+          "cookies": [],
+          "headersSize": -1,
+          "bodySize": 0
+        },
+        "response": {
+          "status": 304,
+          "statusText": "",
+          "httpVersion": "http/2.0",
+          "headers": [
+            {
+              "name": "cache-control",
+              "value": "public, max-age=0, must-revalidate"
+            },
+            {
+              "name": "date",
+              "value": "Sat, 31 Jan 2026 09:20:22 GMT"
+            },
+            {
+              "name": "server",
+              "value": "Vercel"
+            },
+            {
+              "name": "x-vercel-cache",
+              "value": "HIT"
+            },
+            {
+              "name": "x-vercel-id",
+              "value": "bom1::l8mrg-1769851222196-92a59f00c45f"
+            }
+          ],
+          "cookies": [],
+          "content": {
+            "size": 2062,
+            "mimeType": "text/x-component",
+            "text": "1:\"$Sreact.fragment\"\n2:I[44636,[\"/_next/static/chunks/15e2eefaace67d07.js\"],\"Providers\"]\n3:I[39756,[\"/_next/static/chunks/ff1a16fafef87110.js\",\"/_next/static/chunks/4d348ff2302e5aac.js\"],\"default\"]\n4:I[37457,[\"/_next/static/chunks/ff1a16fafef87110.js\",\"/_next/static/chunks/4d348ff2302e5aac.js\"],\"default\"]\n:HL[\"/_next/static/chunks/0b2436d9ae588987.css\",\"style\"]\n0:{\"buildId\":\"b-bQnOPV0wVJkqJQgy70z\",\"rsc\":[\"$\",\"$1\",\"c\",{\"children\":[[[\"$\",\"link\",\"0\",{\"rel\":\"stylesheet\",\"href\":\"/_next/static/chunks/0b2436d9ae588987.css\",\"precedence\":\"next\"}],[\"$\",\"script\",\"script-0\",{\"src\":\"/_next/static/chunks/15e2eefaace67d07.js\",\"async\":true}]],[\"$\",\"html\",null,{\"lang\":\"en\",\"children\":[\"$\",\"body\",null,{\"className\":\"geist_a71539c9-module__T19VSG__variable geist_mono_8d43a2aa-module__8Li5zG__variable antialiased\",\"children\":[\"$\",\"$L2\",null,{\"children\":[\"$\",\"$L3\",null,{\"parallelRouterKey\":\"children\",\"template\":[\"$\",\"$L4\",null,{}],\"notFound\":[[[\"$\",\"title\",null,{\"children\":\"404: This page could not be found.\"}],[\"$\",\"div\",null,{\"style\":{\"fontFamily\":\"system-ui,\\\"Segoe UI\\\",Roboto,Helvetica,Arial,sans-serif,\\\"Apple Color Emoji\\\",\\\"Segoe UI Emoji\\\"\",\"height\":\"100vh\",\"textAlign\":\"center\",\"display\":\"flex\",\"flexDirection\":\"column\",\"alignItems\":\"center\",\"justifyContent\":\"center\"},\"children\":[\"$\",\"div\",null,{\"children\":[[\"$\",\"style\",null,{\"dangerouslySetInnerHTML\":{\"__html\":\"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}\"}}],[\"$\",\"h1\",null,{\"className\":\"next-error-h1\",\"style\":{\"display\":\"inline-block\",\"margin\":\"0 20px 0 0\",\"padding\":\"0 23px 0 0\",\"fontSize\":24,\"fontWeight\":500,\"verticalAlign\":\"top\",\"lineHeight\":\"49px\"},\"children\":404}],[\"$\",\"div\",null,{\"style\":{\"display\":\"inline-block\"},\"children\":[\"$\",\"h2\",null,{\"style\":{\"fontSize\":14,\"fontWeight\":400,\"lineHeight\":\"49px\",\"margin\":0},\"children\":\"This page could not be found.\"}]}]]}]}]],[]]}]}]}]}]]}],\"loading\":null,\"isPartial\":false}\n"
+          },
+          "redirectURL": "",
+          "headersSize": -1,
+          "bodySize": 0,
+          "_transferSize": 44,
+          "_error": null,
+          "_fetchedViaServiceWorker": false
+        },
+        "serverIPAddress": "216.198.79.3",
+        "startedDateTime": "2026-01-31T09:20:22.151Z",
+        "time": 69.24099999014288,
+        "timings": {
+          "blocked": 3.0199999796748163,
+          "dns": -1,
+          "ssl": -1,
+          "connect": -1,
+          "send": 0.5560000000000003,
+          "wait": 64.84000001493841,
+          "receive": 0.8249999955296516,
+          "_blocked_queueing": 1.2509999796748161,
+          "_workerStart": -1,
+          "_workerReady": -1,
+          "_workerFetchStart": -1,
+          "_workerRespondWithSettled": -1
+        }
+      },
+      {
+        "_connectionId": "102738",
+        "_initiator": {
+          "type": "script",
+          "stack": {
+            "callFrames": [
+              {
+                "functionName": "window.fetch",
+                "scriptId": "30",
+                "url": "chrome-extension://iohjgamcilhbgmhbnllfolmkmmekfmci/injected-scripts/host-network-events.js",
+                "lineNumber": 0,
+                "columnNumber": 168642
+              }
+            ],
+            "parent": {
+              "description": "await",
+              "callFrames": [
+                {
+                  "functionName": "R",
+                  "scriptId": "22",
+                  "url": "https://b2bmedplatform-hmnupqbbx-kushagras-projects-82da7c81.vercel.app/_next/static/chunks/585df5d56a3555ef.js",
+                  "lineNumber": 0,
+                  "columnNumber": 43143
+                },
+                {
+                  "functionName": "er",
+                  "scriptId": "22",
+                  "url": "https://b2bmedplatform-hmnupqbbx-kushagras-projects-82da7c81.vercel.app/_next/static/chunks/585df5d56a3555ef.js",
+                  "lineNumber": 0,
+                  "columnNumber": 87218
+                },
+                {
+                  "functionName": "Q",
+                  "scriptId": "22",
+                  "url": "https://b2bmedplatform-hmnupqbbx-kushagras-projects-82da7c81.vercel.app/_next/static/chunks/585df5d56a3555ef.js",
+                  "lineNumber": 0,
+                  "columnNumber": 84597
+                },
+                {
+                  "functionName": "U",
+                  "scriptId": "22",
+                  "url": "https://b2bmedplatform-hmnupqbbx-kushagras-projects-82da7c81.vercel.app/_next/static/chunks/585df5d56a3555ef.js",
+                  "lineNumber": 0,
+                  "columnNumber": 65870
+                },
+                {
+                  "functionName": "e",
+                  "scriptId": "22",
+                  "url": "https://b2bmedplatform-hmnupqbbx-kushagras-projects-82da7c81.vercel.app/_next/static/chunks/585df5d56a3555ef.js",
+                  "lineNumber": 0,
+                  "columnNumber": 62256
+                },
+                {
+                  "functionName": "e",
+                  "scriptId": "22",
+                  "url": "https://b2bmedplatform-hmnupqbbx-kushagras-projects-82da7c81.vercel.app/_next/static/chunks/585df5d56a3555ef.js",
+                  "lineNumber": 0,
+                  "columnNumber": 62375
+                },
+                {
+                  "functionName": "",
+                  "scriptId": "22",
+                  "url": "https://b2bmedplatform-hmnupqbbx-kushagras-projects-82da7c81.vercel.app/_next/static/chunks/585df5d56a3555ef.js",
+                  "lineNumber": 0,
+                  "columnNumber": 62404
+                },
+                {
+                  "functionName": "",
+                  "scriptId": "22",
+                  "url": "https://b2bmedplatform-hmnupqbbx-kushagras-projects-82da7c81.vercel.app/_next/static/chunks/585df5d56a3555ef.js",
+                  "lineNumber": 0,
+                  "columnNumber": 64318
+                },
+                {
+                  "functionName": "A",
+                  "scriptId": "22",
+                  "url": "https://b2bmedplatform-hmnupqbbx-kushagras-projects-82da7c81.vercel.app/_next/static/chunks/585df5d56a3555ef.js",
+                  "lineNumber": 0,
+                  "columnNumber": 64691
+                }
+              ]
+            }
+          }
+        },
+        "_priority": "Low",
+        "_resourceType": "fetch",
+        "cache": {},
+        "connection": "443",
+        "request": {
+          "method": "GET",
+          "url": "https://b2bmedplatform-hmnupqbbx-kushagras-projects-82da7c81.vercel.app/register?_rsc=l7ymg",
+          "httpVersion": "http/2.0",
+          "headers": [
+            {
+              "name": ":authority",
+              "value": "b2bmedplatform-hmnupqbbx-kushagras-projects-82da7c81.vercel.app"
+            },
+            {
+              "name": ":method",
+              "value": "GET"
+            },
+            {
+              "name": ":path",
+              "value": "/register?_rsc=l7ymg"
+            },
+            {
+              "name": ":scheme",
+              "value": "https"
+            },
+            {
+              "name": "accept",
+              "value": "*/*"
+            },
+            {
+              "name": "accept-encoding",
+              "value": "gzip, deflate, br, zstd"
+            },
+            {
+              "name": "accept-language",
+              "value": "en-GB,en-US;q=0.9,en;q=0.8,hi;q=0.7,bho;q=0.6,te;q=0.5"
+            },
+            {
+              "name": "if-none-match",
+              "value": "\"3db6915455e6157a3aa9793d0fcf5346\""
+            },
+            {
+              "name": "next-router-prefetch",
+              "value": "1"
+            },
+            {
+              "name": "next-router-segment-prefetch",
+              "value": "/register"
+            },
+            {
+              "name": "next-url",
+              "value": "/login"
+            },
+            {
+              "name": "priority",
+              "value": "i"
+            },
+            {
+              "name": "referer",
+              "value": "https://b2bmedplatform-hmnupqbbx-kushagras-projects-82da7c81.vercel.app/login?callbackUrl=%2Fadmin%2Fdashboard"
+            },
+            {
+              "name": "rsc",
+              "value": "1"
+            },
+            {
+              "name": "sec-ch-ua",
+              "value": "\"Not(A:Brand\";v=\"8\", \"Chromium\";v=\"144\", \"Google Chrome\";v=\"144\""
+            },
+            {
+              "name": "sec-ch-ua-mobile",
+              "value": "?0"
+            },
+            {
+              "name": "sec-ch-ua-platform",
+              "value": "\"macOS\""
+            },
+            {
+              "name": "sec-fetch-dest",
+              "value": "empty"
+            },
+            {
+              "name": "sec-fetch-mode",
+              "value": "cors"
+            },
+            {
+              "name": "sec-fetch-site",
+              "value": "same-origin"
+            },
+            {
+              "name": "user-agent",
+              "value": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36"
+            }
+          ],
+          "queryString": [
+            {
+              "name": "_rsc",
+              "value": "l7ymg"
+            }
+          ],
+          "cookies": [],
+          "headersSize": -1,
+          "bodySize": 0
+        },
+        "response": {
+          "status": 304,
+          "statusText": "",
+          "httpVersion": "http/2.0",
+          "headers": [
+            {
+              "name": "cache-control",
+              "value": "public, max-age=0, must-revalidate"
+            },
+            {
+              "name": "date",
+              "value": "Sat, 31 Jan 2026 09:20:22 GMT"
+            },
+            {
+              "name": "server",
+              "value": "Vercel"
+            },
+            {
+              "name": "x-vercel-cache",
+              "value": "HIT"
+            },
+            {
+              "name": "x-vercel-id",
+              "value": "bom1::vshvt-1769851222196-91d4ef44bf34"
+            }
+          ],
+          "cookies": [],
+          "content": {
+            "size": 432,
+            "mimeType": "text/x-component",
+            "text": "1:\"$Sreact.fragment\"\n2:I[39756,[\"/_next/static/chunks/ff1a16fafef87110.js\",\"/_next/static/chunks/4d348ff2302e5aac.js\"],\"default\"]\n3:I[37457,[\"/_next/static/chunks/ff1a16fafef87110.js\",\"/_next/static/chunks/4d348ff2302e5aac.js\"],\"default\"]\n0:{\"buildId\":\"b-bQnOPV0wVJkqJQgy70z\",\"rsc\":[\"$\",\"$1\",\"c\",{\"children\":[null,[\"$\",\"$L2\",null,{\"parallelRouterKey\":\"children\",\"template\":[\"$\",\"$L3\",null,{}]}]]}],\"loading\":null,\"isPartial\":false}\n"
+          },
+          "redirectURL": "",
+          "headersSize": -1,
+          "bodySize": 0,
+          "_transferSize": 44,
+          "_error": null,
+          "_fetchedViaServiceWorker": false
+        },
+        "serverIPAddress": "216.198.79.3",
+        "startedDateTime": "2026-01-31T09:20:22.151Z",
+        "time": 67.09200004115701,
+        "timings": {
+          "blocked": 2.9780000536218285,
+          "dns": -1,
+          "ssl": -1,
+          "connect": -1,
+          "send": 0.3919999999999999,
+          "wait": 62.2930000494644,
+          "receive": 1.428999938070774,
+          "_blocked_queueing": 1.2760000536218286,
+          "_workerStart": -1,
+          "_workerReady": -1,
+          "_workerFetchStart": -1,
+          "_workerRespondWithSettled": -1
+        }
+      },
+      {
+        "_connectionId": "102738",
+        "_initiator": {
+          "type": "script",
+          "stack": {
+            "callFrames": [
+              {
+                "functionName": "window.fetch",
+                "scriptId": "30",
+                "url": "chrome-extension://iohjgamcilhbgmhbnllfolmkmmekfmci/injected-scripts/host-network-events.js",
+                "lineNumber": 0,
+                "columnNumber": 168642
+              }
+            ],
+            "parent": {
+              "description": "await",
+              "callFrames": [
+                {
+                  "functionName": "R",
+                  "scriptId": "22",
+                  "url": "https://b2bmedplatform-hmnupqbbx-kushagras-projects-82da7c81.vercel.app/_next/static/chunks/585df5d56a3555ef.js",
+                  "lineNumber": 0,
+                  "columnNumber": 43143
+                },
+                {
+                  "functionName": "er",
+                  "scriptId": "22",
+                  "url": "https://b2bmedplatform-hmnupqbbx-kushagras-projects-82da7c81.vercel.app/_next/static/chunks/585df5d56a3555ef.js",
+                  "lineNumber": 0,
+                  "columnNumber": 87218
+                },
+                {
+                  "functionName": "Q",
+                  "scriptId": "22",
+                  "url": "https://b2bmedplatform-hmnupqbbx-kushagras-projects-82da7c81.vercel.app/_next/static/chunks/585df5d56a3555ef.js",
+                  "lineNumber": 0,
+                  "columnNumber": 84597
+                },
+                {
+                  "functionName": "U",
+                  "scriptId": "22",
+                  "url": "https://b2bmedplatform-hmnupqbbx-kushagras-projects-82da7c81.vercel.app/_next/static/chunks/585df5d56a3555ef.js",
+                  "lineNumber": 0,
+                  "columnNumber": 65870
+                },
+                {
+                  "functionName": "e",
+                  "scriptId": "22",
+                  "url": "https://b2bmedplatform-hmnupqbbx-kushagras-projects-82da7c81.vercel.app/_next/static/chunks/585df5d56a3555ef.js",
+                  "lineNumber": 0,
+                  "columnNumber": 62256
+                },
+                {
+                  "functionName": "e",
+                  "scriptId": "22",
+                  "url": "https://b2bmedplatform-hmnupqbbx-kushagras-projects-82da7c81.vercel.app/_next/static/chunks/585df5d56a3555ef.js",
+                  "lineNumber": 0,
+                  "columnNumber": 62337
+                },
+                {
+                  "functionName": "e",
+                  "scriptId": "22",
+                  "url": "https://b2bmedplatform-hmnupqbbx-kushagras-projects-82da7c81.vercel.app/_next/static/chunks/585df5d56a3555ef.js",
+                  "lineNumber": 0,
+                  "columnNumber": 62375
+                },
+                {
+                  "functionName": "",
+                  "scriptId": "22",
+                  "url": "https://b2bmedplatform-hmnupqbbx-kushagras-projects-82da7c81.vercel.app/_next/static/chunks/585df5d56a3555ef.js",
+                  "lineNumber": 0,
+                  "columnNumber": 62404
+                },
+                {
+                  "functionName": "",
+                  "scriptId": "22",
+                  "url": "https://b2bmedplatform-hmnupqbbx-kushagras-projects-82da7c81.vercel.app/_next/static/chunks/585df5d56a3555ef.js",
+                  "lineNumber": 0,
+                  "columnNumber": 64318
+                },
+                {
+                  "functionName": "A",
+                  "scriptId": "22",
+                  "url": "https://b2bmedplatform-hmnupqbbx-kushagras-projects-82da7c81.vercel.app/_next/static/chunks/585df5d56a3555ef.js",
+                  "lineNumber": 0,
+                  "columnNumber": 64691
+                }
+              ]
+            }
+          }
+        },
+        "_priority": "Low",
+        "_resourceType": "fetch",
+        "cache": {},
+        "connection": "443",
+        "request": {
+          "method": "GET",
+          "url": "https://b2bmedplatform-hmnupqbbx-kushagras-projects-82da7c81.vercel.app/register?_rsc=rnjqr",
+          "httpVersion": "http/2.0",
+          "headers": [
+            {
+              "name": ":authority",
+              "value": "b2bmedplatform-hmnupqbbx-kushagras-projects-82da7c81.vercel.app"
+            },
+            {
+              "name": ":method",
+              "value": "GET"
+            },
+            {
+              "name": ":path",
+              "value": "/register?_rsc=rnjqr"
+            },
+            {
+              "name": ":scheme",
+              "value": "https"
+            },
+            {
+              "name": "accept",
+              "value": "*/*"
+            },
+            {
+              "name": "accept-encoding",
+              "value": "gzip, deflate, br, zstd"
+            },
+            {
+              "name": "accept-language",
+              "value": "en-GB,en-US;q=0.9,en;q=0.8,hi;q=0.7,bho;q=0.6,te;q=0.5"
+            },
+            {
+              "name": "if-none-match",
+              "value": "\"c41e25c8af7515cbb8f8c56c56f05485\""
+            },
+            {
+              "name": "next-router-prefetch",
+              "value": "1"
+            },
+            {
+              "name": "next-router-segment-prefetch",
+              "value": "/register/__PAGE__"
+            },
+            {
+              "name": "next-url",
+              "value": "/login"
+            },
+            {
+              "name": "priority",
+              "value": "i"
+            },
+            {
+              "name": "referer",
+              "value": "https://b2bmedplatform-hmnupqbbx-kushagras-projects-82da7c81.vercel.app/login?callbackUrl=%2Fadmin%2Fdashboard"
+            },
+            {
+              "name": "rsc",
+              "value": "1"
+            },
+            {
+              "name": "sec-ch-ua",
+              "value": "\"Not(A:Brand\";v=\"8\", \"Chromium\";v=\"144\", \"Google Chrome\";v=\"144\""
+            },
+            {
+              "name": "sec-ch-ua-mobile",
+              "value": "?0"
+            },
+            {
+              "name": "sec-ch-ua-platform",
+              "value": "\"macOS\""
+            },
+            {
+              "name": "sec-fetch-dest",
+              "value": "empty"
+            },
+            {
+              "name": "sec-fetch-mode",
+              "value": "cors"
+            },
+            {
+              "name": "sec-fetch-site",
+              "value": "same-origin"
+            },
+            {
+              "name": "user-agent",
+              "value": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36"
+            }
+          ],
+          "queryString": [
+            {
+              "name": "_rsc",
+              "value": "rnjqr"
+            }
+          ],
+          "cookies": [],
+          "headersSize": -1,
+          "bodySize": 0
+        },
+        "response": {
+          "status": 304,
+          "statusText": "",
+          "httpVersion": "http/2.0",
+          "headers": [
+            {
+              "name": "cache-control",
+              "value": "public, max-age=0, must-revalidate"
+            },
+            {
+              "name": "date",
+              "value": "Sat, 31 Jan 2026 09:20:22 GMT"
+            },
+            {
+              "name": "server",
+              "value": "Vercel"
+            },
+            {
+              "name": "x-vercel-cache",
+              "value": "HIT"
+            },
+            {
+              "name": "x-vercel-id",
+              "value": "bom1::57lsv-1769851222196-52982b9af5e0"
+            }
+          ],
+          "cookies": [],
+          "content": {
+            "size": 866,
+            "mimeType": "text/x-component",
+            "text": "1:\"$Sreact.fragment\"\n2:I[47257,[\"/_next/static/chunks/ff1a16fafef87110.js\",\"/_next/static/chunks/4d348ff2302e5aac.js\"],\"ClientPageRoot\"]\n3:I[86906,[\"/_next/static/chunks/15e2eefaace67d07.js\",\"/_next/static/chunks/2ece36e3364a8f23.js\"],\"default\"]\n6:I[97367,[\"/_next/static/chunks/ff1a16fafef87110.js\",\"/_next/static/chunks/4d348ff2302e5aac.js\"],\"OutletBoundary\"]\n7:\"$Sreact.suspense\"\n0:{\"buildId\":\"b-bQnOPV0wVJkqJQgy70z\",\"rsc\":[\"$\",\"$1\",\"c\",{\"children\":[[\"$\",\"$L2\",null,{\"Component\":\"$3\",\"serverProvidedParams\":{\"searchParams\":{},\"params\":{},\"promises\":[\"$@4\",\"$@5\"]}}],[[\"$\",\"script\",\"script-0\",{\"src\":\"/_next/static/chunks/2ece36e3364a8f23.js\",\"async\":true}]],[\"$\",\"$L6\",null,{\"children\":[\"$\",\"$7\",null,{\"name\":\"Next.MetadataOutlet\",\"children\":\"$@8\"}]}]]}],\"loading\":null,\"isPartial\":false}\n4:{}\n5:\"$0:rsc:props:children:0:props:serverProvidedParams:params\"\n8:null\n"
+          },
+          "redirectURL": "",
+          "headersSize": -1,
+          "bodySize": 0,
+          "_transferSize": 44,
+          "_error": null,
+          "_fetchedViaServiceWorker": false
+        },
+        "serverIPAddress": "216.198.79.3",
+        "startedDateTime": "2026-01-31T09:20:22.151Z",
+        "time": 72.59500003419816,
+        "timings": {
+          "blocked": 2.9359999938830734,
+          "dns": -1,
+          "ssl": -1,
+          "connect": -1,
+          "send": 0.16599999999999993,
+          "wait": 69.13800001472235,
+          "receive": 0.35500002559274435,
+          "_blocked_queueing": 1.2069999938830733,
+          "_workerStart": -1,
+          "_workerReady": -1,
+          "_workerFetchStart": -1,
+          "_workerRespondWithSettled": -1
+        }
+      }
+    ]
+  }
+}
