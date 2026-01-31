@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/no-explicit-any */
 import { NextRequest } from 'next/server';
 import { AdminService } from '@/api/services/admin.service';
 import { successResponse, errorResponse, paginatedResponse, getPaginationParams } from '@/api/utils/response';

@@ -1,9 +1,9 @@
 'use client';
 
 import { useEffect, useState, useCallback } from 'react';
-import Link from 'next/link';
+
 import { userStatusConfig } from '@/lib/config/role-config';
-import { Search, Filter, Eye, CheckCircle, XCircle } from 'lucide-react';
+import { Search, Filter, Eye } from 'lucide-react';
 
 interface User {
     _id: string;

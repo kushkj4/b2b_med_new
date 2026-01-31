@@ -1,4 +1,6 @@
+/* eslint-disable @typescript-eslint/no-explicit-any */
 import dbConnect from '@/lib/db/mongodb';
+import bcrypt from 'bcryptjs';
 import { User, Distributor, Retailer, Product, Company, Order } from '@/lib/db/models';
 import { UserStatus } from '@/lib/config/role-config';
 import mongoose from 'mongoose';
@@ -145,7 +147,7 @@ export class AdminService {
 
     static async createUser(data: any) {
         await dbConnect();
-        const bcrypt = require('bcryptjs');
+
 
         // Check if email exists
         const existing = await User.findOne({ email: data.email.toLowerCase() });

@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/no-explicit-any */
 import { NextRequest, NextResponse } from 'next/server';
 import { AuthService } from '@/api/services/auth.service';
 import { successResponse, errorResponse } from '@/api/utils/response';
