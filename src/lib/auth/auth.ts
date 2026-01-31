@@ -14,7 +14,11 @@ export const { handlers, auth, signIn, signOut } = NextAuth({
                 password: {},
             },
             async authorize(credentials) {
+                console.log('--- LOGIN ATTEMPT ---');
+                console.log('Email:', credentials?.email);
+
                 if (!credentials?.email || !credentials?.password) {
+                    console.log('Missing credentials');
                     throw new Error('Email and password are required');
                 }
 
@@ -22,6 +26,7 @@ export const { handlers, auth, signIn, signOut } = NextAuth({
 
                 const user = await User.findOne({ email: (credentials.email as string).toLowerCase() });
                 if (!user) {
+                    console.log('User not found');
                     throw new Error('Invalid email or password');
                 }
 
@@ -30,16 +35,21 @@ export const { handlers, auth, signIn, signOut } = NextAuth({
                     user.password
                 );
                 if (!isPasswordValid) {
+                    console.log('Invalid password');
                     throw new Error('Invalid email or password');
                 }
 
                 if (!user.is_active) {
+                    console.log('User inactive');
                     throw new Error('Your account has been deactivated');
                 }
 
                 // Update last login
                 user.last_login = new Date();
                 await user.save();
+
+                console.log('Login successful for:', user.email);
+                console.log('Returning user object:', { id: user._id, role: user.role });
 
                 return {
                     id: user._id.toString(),
@@ -55,6 +65,7 @@ export const { handlers, auth, signIn, signOut } = NextAuth({
         ...authConfig.callbacks,
         async jwt({ token, user }) {
             if (user) {
+                console.log('JWT Callback: User present, adding to token');
                 token.id = user.id;
                 token.role = user.role;
                 token.status = user.status;
