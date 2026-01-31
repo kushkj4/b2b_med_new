@@ -85,7 +85,7 @@ export const { handlers, auth, signIn, signOut } = NextAuth({
     trustHost: true,
     cookies: {
         sessionToken: {
-            name: `__Secure-next-auth.session-token`,
+            name: `__Secure-b2b-token`,
             options: {
                 httpOnly: true,
                 sameSite: 'lax',
