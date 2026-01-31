@@ -10,16 +10,12 @@ function DashboardContent({ children }: { children: React.ReactNode }) {
     const { data: session, status } = useSession();
     const [sidebarOpen, setSidebarOpen] = useState(false);
 
-    if (status === 'loading') {
+    if (status === 'loading' || !session?.user) {
         return (
             <div className="min-h-screen bg-gray-50 flex items-center justify-center">
                 <div className="animate-spin rounded-full h-10 w-10 border-2 border-blue-600 border-t-transparent" />
             </div>
         );
-    }
-
-    if (!session?.user) {
-        return null;
     }
 
     const user = {
