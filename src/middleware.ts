@@ -33,13 +33,22 @@ export default async function middleware(request: NextRequest) {
 
 
     // Get the token/session
+    // Get the token/session
     const token = await getToken({
         req: request,
-        secret: process.env.NEXTAUTH_SECRET
+        secret: process.env.NEXTAUTH_SECRET,
+        cookieName: '__Secure-next-auth.session-token',
     });
+
+    console.log('Middleware: Path:', pathname);
+    console.log('Middleware: Token found?', !!token);
+    if (token) {
+        console.log('Middleware: User Role:', token.role);
+    }
 
     // Redirect to login if not authenticated
     if (!token) {
+        console.log('Middleware: No token, redirecting to login');
         const loginUrl = new URL('/login', request.url);
         loginUrl.searchParams.set('callbackUrl', pathname);
         return NextResponse.redirect(loginUrl);
