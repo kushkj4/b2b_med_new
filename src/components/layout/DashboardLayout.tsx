@@ -19,11 +19,11 @@ function DashboardContent({ children }: { children: React.ReactNode }) {
     }
 
     if (status === 'unauthenticated' || !session?.user) {
-        // Fallback: If middleware let us through but client session failed, redirect to login
-        if (typeof window !== 'undefined') {
-            window.location.href = '/login?error=SessionMismatch';
-        }
-        return null;
+        return (
+            <div className="min-h-screen bg-gray-50 flex items-center justify-center">
+                <div className="text-gray-500">Redirecting...</div>
+            </div>
+        );
     }
 
     const user = {
